@@ -1,0 +1,500 @@
+﻿tconst,titleType,primaryTitle,originalTitle,isAdult,startYear,endYear,runtimeMinutes,“genres”
+tt0000001,short,Carmencita,Carmencita,0,1894,\N,1,"“Documentary,Short”"
+tt0000002,short,Le clown et ses chiens,Le clown et ses chiens,0,1892,\N,5,"“Animation,Short”"
+tt0000003,short,Pauvre Pierrot,Pauvre Pierrot,0,1892,\N,5,"“Animation,Comedy,Romance”"
+tt0000004,short,Un bon bock,Un bon bock,0,1892,\N,12,"“Animation,Short”"
+tt0000005,short,Blacksmith Scene,Blacksmith Scene,0,1893,\N,1,"“Comedy,Short”"
+tt0000006,short,Chinese Opium Den,Chinese Opium Den,0,1894,\N,1,“Short”
+tt0000007,short,Corbett and Courtney Before the Kinetograph,Corbett and Courtney Before the Kinetograph,0,1894,\N,1,"“Short,Sport”"
+tt0000008,short,Edison Kinetoscopic Record of a Sneeze,Edison Kinetoscopic Record of a Sneeze,0,1894,\N,1,"“Documentary,Short”"
+tt0000009,movie,Miss Jerry,Miss Jerry,0,1894,\N,45,“Romance”
+tt0000010,short,Leaving the Factory,La sortie de l'usine Lumi猫re 脿 Lyon,0,1895,\N,1,"“Documentary,Short\N”"
+tt0000011,short,Akrobatisches Potpourri,Akrobatisches Potpourri,0,1895,\N,1,"“Documentary,Short”"
+tt0000012,short,The Arrival of a Train,L'arriv茅e d'un train 脿 La Ciotat,0,1896,\N,1,"“Documentary,Short\N”"
+tt0000013,short,The Photographical Congress Arrives in Lyon,Le d茅barquement du congr猫s de photographie 脿 Lyon,0,1895,\N,1,"“Documentary,Short”"
+tt0000014,short,The Waterer Watered,L'arroseur arros茅,0,1895,\N,1,"“Comedy,Short ”"
+tt0000015,short,Autour d'une cabine,Autour d'une cabine,0,1894,\N,2,"“Animation,Short”"
+tt0000016,short,Boat Leaving the Port,Barque sortant du port,0,1895,\N,1,"“Documentary,Short”"
+tt0000017,short,Italienischer Bauerntanz,Italienischer Bauerntanz,0,1895,\N,1,"“Documentary,Short”"
+tt0000018,short,Das boxende K盲nguruh,Das boxende K盲nguruh,0,1895,\N,1,“Short”
+tt0000019,short,The Clown Barber,The Clown Barber,0,1898,\N,\N,"“Comedy,Short”"
+tt0000020,short,The Derby 1895,The Derby 1895,0,1895,\N,1,"“Documentary,Short,Sport”"
+tt0000022,short,Blacksmith Scene,Les forgerons,0,1895,\N,1,"“Documentary,Short”"
+tt0000023,short,The Sea,Baignade en mer,0,1895,\N,1,"“Documentary,Short”"
+tt0000024,short,Opening of the Kiel Canal,Opening of the Kiel Canal,0,1895,\N,1,"“News,Short”"
+tt0000025,short,The Oxford and Cambridge University Boat Race,The Oxford and Cambridge University Boat Race,0,1896,\N,\N,"“News,Short,Sport”"
+tt0000026,short,The Messers. Lumi猫re at Cards,Partie d'茅cart茅,0,1896,\N,1,"“Documentary,Shorters”"
+tt0000027,short,Cordeliers' Square in Lyon,Place des Cordeliers 脿 Lyon,0,1895,\N,1,"“Documentary,Shorta”"
+tt0000028,short,Fishing for Goldfish,La p锚che aux poissons rouges,0,1895,\N,1,"“Documentary,ShortS”"
+tt0000029,short,Baby's Meal,Repas de b茅b茅,0,1895,\N,1,"“Documentary,Short5”"
+tt0000030,short,Rough Sea at Dover,Rough Sea at Dover,0,1895,\N,1,"“Documentary,Short”"
+tt0000031,short,Jumping the Blanket,Le saut 脿 la couverture,0,1895,\N,1,"“Documentary,Short,”"
+tt0000032,short,Die Serpentint盲nzerin,Die Serpentint盲nzerin,0,1895,\N,1,“Shorten”
+tt0000033,short,Horse Trick Riders,La voltige,0,1895,\N,1,"“Comedy,Documentary,Short”"
+tt0000034,short,Arriv茅e d'un train gare de Vincennes,Arriv茅e d'un train gare de Vincennes,0,1896,\N,1,"“Documentary,ShortN”"
+tt0000035,short,Watering the Flowers,L'arroseur,0,1896,\N,1,"“Comedy,Short”"
+tt0000036,short,Awakening of Rip,Awakening of Rip,0,1896,\N,1,"“Drama,Short”"
+tt0000037,short,Sea Bathing,Baignade en mer,0,1896,\N,1,“Short”
+tt0000038,short,The Ball Game,The Ball Game,0,1898,\N,1,"“Documentary,Short,Sport”"
+tt0000039,short,Barnet Horse Fair,Barnet Horse Fair,0,1896,\N,\N,“Short”
+tt0000040,short,Barque sortant du port de Trouville,Barque sortant du port de Trouville,0,1896,\N,\N,"“Documentary,Short”"
+tt0000041,short,Bataille de neige,Bataille de neige,0,1897,\N,1,"“Comedy,Documentary,Short”"
+tt0000042,short,Bateau-mouche sur la Seine,Bateau-mouche sur la Seine,0,1896,\N,\N,"“Documentary,Short”"
+tt0000043,short,Batteuse 脿 vapeur,Batteuse 脿 vapeur,0,1896,\N,\N,"“Documentary,Short”"
+tt0000044,short,Le bivouac,Le bivouac,0,1896,\N,1,“Short”
+tt0000045,short,Les blanchisseuses,Les blanchisseuses,0,1896,\N,\N,“Short”
+tt0000046,short,Bois de Boulogne,Bois de Boulogne,0,1896,\N,\N,"“Documentary,Short”"
+tt0000047,short,Boulevard des Italiens,Boulevard des Italiens,0,1896,\N,\N,"“Documentary,Short”"
+tt0000048,short,The Boxing Kangaroo,The Boxing Kangaroo,0,1896,\N,\N,“Short”
+tt0000049,short,"Boxing Match; or, Glove Contest","Boxing Match; or, Glove Contest",0,1896,\N,\N,"“Short,Sport”"
+tt0000050,short,B茅b茅 et fillettes,B茅b茅 et fillettes,0,1896,\N,\N,"“Documentary,Short1896”"
+tt0000051,short,The Bohemian Encampment,Campement de boh茅miens,0,1896,\N,\N,"“Documentary,ShortS”"
+tt0000052,short,Ruraux au galop,Ruraux au galop,0,1896,\N,1,"“Documentary,Short”"
+tt0000053,short,A Chegada do Comboio Inaugural 脿 Esta莽茫o Central do Porto,A Chegada do Comboio Inaugural 脿 Esta莽茫o Central do Porto,0,1897,\N,\N,"“Documentary,Short”"
+tt0000054,short,A Merry-Go-Round,Les chevaux de bois,0,1896,\N,\N,“Short”
+tt0000055,short,Le chiffonnier,Le chiffonnier,0,1896,\N,\N,“Short”
+tt0000056,short,Uma Corrida de Touros no Campo Pequeno,Uma Corrida de Touros no Campo Pequeno,0,1896,\N,\N,“Short”
+tt0000057,short,Cort猫ge de tzar allant 脿 Versailles,Cort猫ge de tzar allant 脿 Versailles,0,1896,\N,\N,"“Documentary,Shorttral”"
+tt0000058,short,Cort猫ge de tzar au Bois de Boulogne,Cort猫ge de tzar au Bois de Boulogne,0,1896,\N,\N,"“Documentary,Shorttr”"
+tt0000059,short,Coronation of a Village Maiden,Couronnement de la rosi猫re,0,1896,\N,\N,“Short9”
+tt0000060,short,Dancing Darkies,Dancing Darkies,0,1896,\N,\N,"“Documentary,Short”"
+tt0000061,short,Dancing Girls,Dancing Girls,0,1896,\N,\N,“Short”
+tt0000062,short,Danse serpentine,Danse serpentine,0,1896,\N,1,“Short”
+tt0000063,short,Dessinateur express,Dessinateur express,0,1896,\N,\N,“Short”
+tt0000064,short,Dessinateur: Chamberlain,Dessinateur: Chamberlain,0,1896,\N,\N,“Short”
+tt0000065,short,Dessinateur: Reine Victoria,Dessinateur: Reine Victoria,0,1896,\N,\N,“Short”
+tt0000066,short,Dessinateur: Von Bismark,Dessinateur: Von Bismark,0,1896,\N,\N,“Short”
+tt0000067,short,Conjurer Making Ten Hats in Sixty Seconds,Dix chapeaux en 60 secondes,0,1896,\N,\N,"“Fantasy,Short”"
+tt0000068,short,Unloading the Boat,D茅chargement de bateaux,0,1896,\N,\N,"“Documentary,Short8”"
+tt0000069,short,Post No Bills,D茅fense d'afficher,0,1896,\N,1,"“Comedy,Shorto”"
+tt0000070,short,Demolition of a Wall,D茅molition d'un mur,0,1896,\N,1,"“Documentary,Shorto”"
+tt0000071,short,Automobiles Starting a Race,D茅part des automobiles,0,1896,\N,\N,"“Short,Sport6”"
+tt0000072,short,Officers of French Army Leaving Service,D茅part des officiers,0,1896,\N,\N,“Short”
+tt0000073,short,Effets de mer sur les rochers,Effets de mer sur les rochers,0,1896,\N,\N,"“Documentary,Short”"
+tt0000074,short,Enfants jouant sur la plage,Enfants jouant sur la plage,0,1896,\N,\N,"“Documentary,Short”"
+tt0000075,short,The Conjuring of a Woman at the House of Robert Houdin,Escamotage d'une dame au th茅芒tre Robert Houdin,0,1896,\N,1,"“Horror,Short\N”"
+tt0000076,short,Exit of Rip and the Dwarf,Exit of Rip and the Dwarf,0,1896,\N,1,"“Drama,Short”"
+tt0000077,short,"Le fakir, myst猫re indien","Le fakir, myst猫re indien",0,1896,\N,\N,"“Shorta,”"
+tt0000078,short,Feira de Gado na Corujeira,Feira de Gado na Corujeira,0,1896,\N,1,"“Documentary,Short”"
+tt0000079,short,La gare Saint-Lazare,La gare Saint-Lazare,0,1896,\N,\N,"“Documentary,Short”"
+tt0000080,short,Grandes manoeuvres,Grandes manoeuvres,0,1896,\N,\N,"“Documentary,Short”"
+tt0000081,short,Towing a Boat on the River,Les haleurs de bateaux,0,1896,\N,\N,"“Documentary,Short”"
+tt0000082,short,A Hard Wash,A Hard Wash,0,1896,\N,\N,"“Comedy,Short”"
+tt0000083,short,Les indiscrets,Les indiscrets,0,1896,\N,\N,“Short”
+tt0000084,short,Les ivrognes,Les ivrognes,0,1896,\N,\N,“Short”
+tt0000085,short,Gardener Burning Weeds,Jardinier br没lant des herbes,0,1896,\N,\N,“Shortt”
+tt0000086,short,"Beach and Pier at Trouville, 1st part",Jet茅e et plage de Trouville (1er partie),0,1896,\N,\N,"“Documentary,Short\”"
+tt0000087,short,"Beach and Pier at Trouville, 2nd part",Jet茅e et plage de Trouville (2e partie),0,1896,\N,\N,"“Documentary,Shortt”"
+tt0000088,short,Market Day,Jour de march茅 脿 Trouville,0,1896,\N,\N,"“Documentary,Shorte ”"
+tt0000089,short,Leaving Jerusalem by Railway,D茅part de J茅rusalem en chemin de fer,0,1897,\N,1,"“Documentary,Shortme”"
+tt0000090,short,Lib茅ration des territoriaux,Lib茅ration des territoriaux,0,1896,\N,\N,"“Documentary,Shortar”"
+tt0000091,short,The House of the Devil,Le manoir du diable,0,1896,\N,3,"“Horror,Short”"
+tt0000092,short,Mar茅e montante sur Brise-Larmes,Mar茅e montante sur Brise-Larmes,0,1896,\N,\N,"“Documentary,Shorttm”"
+tt0000093,short,Melbourne,Melbourne,0,1896,\N,\N,"“Documentary,Short”"
+tt0000094,short,Miss de Vere,Miss de Vere,0,1896,\N,\N,“Short”
+tt0000095,short,The Mysterious Paper,Le papier prot茅e,0,1896,\N,\N,“Short-”
+tt0000096,short,Place Saint-Augustin,Place Saint-Augustin,0,1896,\N,\N,"“Documentary,Short”"
+tt0000097,short,"Place de l'Op茅ra, First View","Place de l'Op茅ra, 1er aspect",0,1896,\N,\N,"“Documentary,Short,S”"
+tt0000098,short,"Place de l'Op茅ra, Second View","Place de l'Op茅ra, 2e aspect",0,1896,\N,\N,"“Documentary,Short,S”"
+tt0000099,short,Place de la Bastille,Place de la Bastille,0,1896,\N,\N,"“Documentary,Short”"
+tt0000100,short,Place de la Concorde,Place de la Concorde,0,1896,\N,\N,"“Documentary,Short”"
+tt0000101,short,Place du th茅芒tre fran莽ais,Place du th茅芒tre fran莽ais,0,1896,\N,\N,"“Documentary,Short,Short”"
+tt0000102,short,The Beach at Villiers in a Gale,Plage de Villiers par gros temps,0,1896,\N,\N,“Short”
+tt0000103,short,Smarter than the Teacher,Plus fort que le ma卯tre,0,1896,\N,\N,“Short1”
+tt0000104,short,Pompiers 脿 Lyon,Pompiers 脿 Lyon,0,1896,\N,1,"“Documentary,Short”"
+tt0000105,short,The Docks at Marseilles,Les quais 脿 Marseille,0,1896,\N,\N,"“Documentary,ShortN”"
+tt0000106,short,Retour au cantonnement,Retour au cantonnement,0,1896,\N,\N,“Short”
+tt0000107,short,Naval Review at Cherburg,Revue navale 脿 Cherbourg,0,1896,\N,\N,"“Documentary,Shorto”"
+tt0000108,short,Rip Leaving Sleepy Hollow,Rip Leaving Sleepy Hollow,0,1896,\N,1,"“Drama,Short”"
+tt0000109,short,Rip Meeting the Dwarf,Rip Meeting the Dwarf,0,1896,\N,1,"“Fantasy,Short”"
+tt0000110,short,Rip Passing Over the Mountain,Rip Passing Over the Mountain,0,1896,\N,1,"“Fantasy,Short”"
+tt0000111,short,Rip's Toast,Rip's Toast,0,1896,\N,1,"“Drama,Short”"
+tt0000112,short,Rip's Toast to Hudson,Rip's Toast to Hudson,0,1896,\N,1,"“Fantasy,Short”"
+tt0000113,short,Rip's Twenty Years' Sleep,Rip's Twenty Years' Sleep,0,1896,\N,1,"“Drama,Short”"
+tt0000114,short,French Regiment Going to the Parade,Le r茅giment,0,1896,\N,\N,"“Documentary,Shorty”"
+tt0000115,short,R茅union d'officiers,R茅union d'officiers,0,1896,\N,\N,"“Documentary,Shortry”"
+tt0000116,short,Sac au dos,Sac au dos,0,1896,\N,\N,“Short”
+tt0000117,short,Sa铆da do Pessoal Oper谩rio da F谩brica Confian莽a,Sa铆da do Pessoal Oper谩rio da F谩brica Confian莽a,0,1896,\N,1,"“Documentary,Shortort\N”"
+tt0000118,short,Salut malencontreux d'un d茅serteur,Salut malencontreux d'un d茅serteur,0,1896,\N,\N,“Shortia”
+tt0000119,short,"Rescue on the River, Pt. 2","Sauvetage en rivi猫re, 1er",0,1896,\N,\N,"“Documentary,ShortS”"
+tt0000120,short,"Rescue on the River, Pt. 1","Sauvetage en rivi猫re, 2e",0,1896,\N,\N,"“Documentary,Shortt”"
+tt0000121,short,The Soldier's Courtship,The Soldier's Courtship,0,1896,\N,1,"“Comedy,Short”"
+tt0000122,short,Closing Hours at Vibert's Perfume Factory,Sortie des ateliers Vibert,0,1896,\N,\N,"“Documentary,Short”"
+tt0000123,short,Conjuring,S茅ance de prestidigitation,0,1896,\N,1,“Shortt”
+tt0000124,short,Temp锚te sur la jet茅e du treport,Temp锚te sur la jet茅e du treport,0,1896,\N,\N,"“Documentary,ShortShor”"
+tt0000125,short,The Terrible Railway Accident,The Terrible Railway Accident,0,1896,\N,\N,“Short”
+tt0000126,short,Tom Old Boot,Tom Old Boot,0,1896,\N,\N,“Short”
+tt0000127,short,Les tribulations d'un concierge,Les tribulations d'un concierge,0,1896,\N,\N,"“Comedy,Short”"
+tt0000128,short,Academy for Young Ladies,Un lyc茅e de jeunes filles,0,1896,\N,\N,“Short6”
+tt0000129,short,Un petit diable,Un petit diable,0,1896,\N,\N,“Short”
+tt0000130,short,Une altercation au caf茅,Une altercation au caf茅,0,1896,\N,\N,“Shortor”
+tt0000131,short,A Terrible Night,Une nuit terrible,0,1896,\N,1,"“Comedy,Horror,Short”"
+tt0000132,short,Card Party,Une partie de cartes,0,1896,\N,1,"“Biography,Short”"
+tt0000133,short,La voiture du potier,La voiture du potier,0,1896,\N,\N,“Short”
+tt0000134,short,The Wandering Negro Minstrels,The Wandering Negro Minstrels,0,1896,\N,\N,"“Music,Short”"
+tt0000135,short,A Watermelon Feast,A Watermelon Feast,0,1896,\N,\N,"“Documentary,Short”"
+tt0000137,short,Au r茅fectoire,Au r茅fectoire,0,1897,\N,\N,"“Comedy,Shortcu”"
+tt0000138,short,The Bewitched Inn,L'auberge ensorcel茅e,0,1897,\N,2,"“Comedy,Horror,Short\”"
+tt0000139,short,L'aveugle,L'aveugle,0,1897,\N,\N,"“Drama,Short”"
+tt0000140,short,Baignade dans le torrent,Baignade dans le torrent,0,1897,\N,1,“Short”
+tt0000141,short,Ballet libella,Ballet libella,0,1897,\N,2,"“Documentary,Short”"
+tt0000142,short,Buffalo Bill and Escort,Buffalo Bill and Escort,0,1897,\N,\N,"“News,Short”"
+tt0000143,short,Les cambrioleurs,Les cambrioleurs,0,1897,\N,1,"“Comedy,Short”"
+tt0000144,short,Chez le magn茅tiseur,Chez le magn茅tiseur,0,1897,\N,1,"“Comedy,Shorts,”"
+tt0000145,short,En classe,En classe,0,1897,\N,\N,"“Comedy,Short”"
+tt0000146,short,Le cocher de fiacre endormi,Le cocher de fiacre endormi,0,1897,\N,\N,"“Comedy,Short”"
+tt0000147,movie,The Corbett-Fitzsimmons Fight,The Corbett-Fitzsimmons Fight,0,1897,\N,100,"“Documentary,News,Sport”"
+tt0000148,short,Le Coucher d'Yvette,Le Coucher d'Yvette,0,1897,\N,\N,“Short”
+tt0000149,short,Behind the Scenes,Dans les coulisses,0,1897,\N,\N,"“Comedy,Short”"
+tt0000150,short,Danse fleur de lotus,Danse fleur de lotus,0,1897,\N,1,"“Documentary,Short”"
+tt0000151,short,Faust et Marguerite,Faust et Marguerite,0,1897,\N,\N,“Short”
+tt0000152,short,The Hallucinated Alchemist,L'hallucination de l'alchimiste,0,1897,\N,2,"“Fantasy,Horror,Short”"
+tt0000153,short,The Haunted Castle,The Haunted Castle,0,1897,\N,1,"“Horror,Short”"
+tt0000154,short,Henley Regatta,Henley Regatta,0,1897,\N,\N,"“News,Short,Sport”"
+tt0000155,short,The Hypnotist at Work,Le magn茅tiseur,0,1897,\N,\N,“Shortp”
+tt0000156,short,A Badly Managed Hotel,L'h么tel empoisonn茅,0,1896,\N,\N,"“Comedy,Short\N”"
+tt0000157,short,Idylle,Idylle,0,1897,\N,\N,“Short”
+tt0000158,short,Idylle interrompue,Idylle interrompue,0,1897,\N,\N,"“Comedy,Short”"
+tt0000159,short,The Devil's Laboratory,Le cabinet de M茅phistoph茅l猫s,0,1897,\N,1,"“Horror,Shortsy,”"
+tt0000160,short,The Last Days of Pompeii,The Last Days of Pompeii,0,1900,\N,\N,"“Drama,Short”"
+tt0000161,short,Le莽on de danse,Le莽on de danse,0,1897,\N,\N,"“Comedy,Short0”"
+tt0000162,short,Niagara Falls,Les chutes,0,1897,\N,1,"“Documentary,Short”"
+tt0000163,short,Le planton du colonel,Le planton du colonel,0,1897,\N,\N,"“Comedy,Short”"
+tt0000164,short,Le p锚cheur dans le torrent,Le p锚cheur dans le torrent,0,1897,\N,1,"“Comedy,Short,H”"
+tt0000165,short,Ri帽a en un caf茅,Ri帽a en un caf茅,0,1897,\N,1,“Shortrent”
+tt0000166,short,Salida de los trabajadores de la f谩brica Espa帽a Industrial,Salida de los trabajadores de la f谩brica Espa帽a Industrial,0,1897,\N,1,"“Documentary,Short”"
+tt0000167,short,Salida de misa de doce del Pilar de Zaragoza,Salida de misa de doce del Pilar de Zaragoza,0,1897,\N,\N,"“Documentary,Short”"
+tt0000168,short,Salida del p煤blico de la iglesia parroquial de Santa Mar铆a de Sans,Salida del p煤blico de la iglesia parroquial de Santa Mar铆a de Sans,0,1897,\N,1,"“Documentary,Short”"
+tt0000169,short,Slagsm氓l i gamla Stockholm,Slagsm氓l i gamla Stockholm,0,1897,\N,1,“Shortda”
+tt0000170,short,The Twins' Tea Party,The Twins' Tea Party,0,1896,\N,1,"“Comedy,Short”"
+tt0000171,short,Une nuit agit茅e,Une nuit agit茅e,0,1897,\N,\N,"“Comedy,Shorted”"
+tt0000172,short,The X-Ray Fiend,The X-Ray Fiend,0,1897,\N,1,"“Comedy,Horror,Short”"
+tt0000173,short,Battle of Santiago Bay,Battle of Santiago Bay,0,1898,\N,\N,"“Short,War”"
+tt0000174,short,V媒stavn铆 p谩rkar a lepic plak谩t霉,V媒stavn铆 p谩rkar a lepic plak谩t霉,0,1898,\N,1,"“Comedy,Short la iglesi”"
+tt0000175,short,A Sea Cave Near Lisbon,A Sea Cave Near Lisbon,0,1896,\N,1,"“Documentary,Short”"
+tt0000176,short,Brittania,Brittania,0,1898,\N,\N,“Short”
+tt0000177,short,The Burglar on the Roof,The Burglar on the Roof,0,1898,\N,1,"“Crime,Short”"
+tt0000178,short,The Cavalier's Dream,The Cavalier's Dream,0,1898,\N,1,"“Horror,Short”"
+tt0000179,short,The Cave of the Demons,The Cave of the Demons,0,1898,\N,\N,"“Horror,Short”"
+tt0000180,short,Le chemin de croix,Le chemin de croix,0,1898,\N,\N,“Short”
+tt0000181,short,Cinderella,Cinderella,0,1898,\N,\N,"“Fantasy,Short”"
+tt0000182,short,"Come Along, Do!","Come Along, Do!",0,1898,\N,1,"“Comedy,Short”"
+tt0000183,short,The Corsican Brothers,The Corsican Brothers,0,1898,\N,\N,"“Drama,Short”"
+tt0000184,short,Cripple Creek Bar-Room Scene,Cripple Creek Bar-Room Scene,0,1899,\N,1,"“Short,Western”"
+tt0000185,short,La cr猫che 脿 Bethl茅em,La cr猫che 脿 Bethl茅em,0,1898,\N,\N,“Short1899”
+tt0000186,short,Le cuirass茅 Maine,Le cuirass茅 Maine,0,1898,\N,\N,"“Short,Warrt”"
+tt0000187,short,La c猫ne,La c猫ne,0,1898,\N,1,“Shortne”
+tt0000188,short,The Deserter,The Deserter,0,1898,\N,\N,"“Drama,Short”"
+tt0000189,short,Dorotea,Dorotea,0,1898,\N,\N,“Short”
+tt0000190,short,Dostaven铆cko ve ml媒nici,Dostaven铆cko ve ml媒nici,0,1898,\N,1,"“Comedy,Shortort,”"
+tt0000191,short,D茅m茅nagement 脿 la cloche de bois,D茅m茅nagement 脿 la cloche de bois,0,1898,\N,\N,“Shorthort l”
+tt0000192,short,"Ella Lola, a la Trilby","Ella Lola, a la Trilby",0,1898,\N,\N,“Short”
+tt0000193,short,L'entr茅e 脿 J茅rusalem,L'entr茅e 脿 J茅rusalem,0,1898,\N,\N,“Shorthorts”
+tt0000194,short,Express Train on a Railway Cutting,Express Train on a Railway Cutting,0,1898,\N,\N,"“Documentary,Short”"
+tt0000195,short,Les farces de Jocko,Les farces de Jocko,0,1898,\N,\N,"“Comedy,Short”"
+tt0000196,short,Faust and Mephistopheles,Faust and Mephistopheles,0,1898,\N,\N,"“Fantasy,Short”"
+tt0000197,short,La flagellation,La flagellation,0,1898,\N,1,“Short”
+tt0000198,short,La fuite en 脡gypte,La fuite en 脡gypte,0,1898,\N,1,“Short8”
+tt0000199,short,Glasgow Fire Engine,Glasgow Fire Engine,0,1898,\N,\N,“Short”
+tt0000200,short,Gran corrida de toros,Gran corrida de toros,0,1898,\N,\N,"“Documentary,Short,Sport”"
+tt0000201,short,Indian War Council,Indian War Council,0,1898,\N,\N,"“News,Short”"
+tt0000202,short,Le jardin des oliviers,Le jardin des oliviers,0,1898,\N,\N,“Short”
+tt0000203,short,Je vous y prrrrends!,Je vous y prrrrends!,0,1898,\N,\N,“Short”
+tt0000204,short,J茅sus devant Pilate,J茅sus devant Pilate,0,1898,\N,\N,“Shortrt”
+tt0000205,short,Le莽ons de boxe,Le莽ons de boxe,0,1898,\N,1,"“Comedy,Short,Sportho”"
+tt0000206,short,"Llegada de un tren a la estaci贸n de ferrocarril del Norte, de Barcelona","Llegada de un tren a la estaci贸n de ferrocarril del Norte, de Barcelona",0,1898,\N,\N,"“Documentary,Short”"
+tt0000207,short,London Express,London Express,0,1898,\N,\N,"“Documentary,Short”"
+tt0000208,short,The Miller and Chimney Sweep,The Miller and the Sweep,0,1897,\N,1,"“Comedy,Short”"
+tt0000209,short,Photographing a Ghost,Photographing a Ghost,0,1898,\N,\N,"“Horror,Short”"
+tt0000210,short,A Novice at X-rays,Les rayons R枚ntgen,0,1898,\N,1,“ShortN”
+tt0000211,short,"The Astronomer's Dream; or, The Man in the Moon",La lune 脿 un m猫tre,0,1898,\N,3,"“Comedy,Fantasy,Horrorci”"
+tt0000212,short,Saida do Paquete Duque de Braganca,Saida do Paquete Duque de Braganca,0,1898,\N,\N,“Short”
+tt0000213,short,Sc猫ne d'escamotage,Sc猫ne d'escamotage,0,1898,\N,1,“Shortue”
+tt0000214,short,Tearing Down the Spanish Flag,Tearing Down the Spanish Flag,0,1898,\N,\N,"“Short,War”"
+tt0000215,short,Sm铆ch a pl谩c,Sm铆ch a pl谩c,0,1898,\N,\N,"“Documentary,Shortlag”"
+tt0000216,short,Visita de Do帽a Mar铆a Cristina y Alfonso XIII a Barcelona,Visita de Do帽a Mar铆a Cristina y Alfonso XIII a Barcelona,0,1898,\N,\N,"“News,Shortcelo”"
+tt0000217,short,Waves and Spray,Waves and Spray,0,1898,\N,\N,“Short”
+tt0000218,short,L'affaire Dreyfus,L'affaire Dreyfus,0,1899,\N,13,"“Biography,Drama,Short”"
+tt0000219,short,Aladdin and the Wonderful Lamp,Aladdin and the Wonderful Lamp,0,1899,\N,\N,"“Fantasy,Short”"
+tt0000220,short,The Artist and the Flower Girl,The Artist and the Flower Girl,0,1901,\N,\N,"“Romance,Short”"
+tt0000221,short,Aspectos da Praia de Cascais,Aspectos da Praia de Cascais,0,1899,\N,\N,"“Documentary,Short”"
+tt0000222,short,Au cabaret,Au cabaret,0,1899,\N,1,"“Comedy,Short”"
+tt0000223,short,L'aveugle,L'aveugle,0,1899,\N,\N,“Short”
+tt0000224,short,Battlefield,Battlefield,0,1899,\N,\N,“Short”
+tt0000225,short,Beauty and the Beast,La belle et la b锚te,0,1899,\N,\N,"“Family,Fantasy,Romancee”"
+tt0000226,short,Boat Race,Boat Race,0,1899,\N,\N,“Short”
+tt0000227,short,Bombardment of Mafeking,Bombardment of Mafeking,0,1899,\N,\N,"“Drama,Short,War”"
+tt0000228,short,La bonne absinthe,La bonne absinthe,0,1899,\N,1,“Short”
+tt0000229,short,Casey at the Bat,Casey at the Bat,0,1899,\N,1,"“Short,Sport”"
+tt0000230,short,Cinderella,Cendrillon,0,1899,\N,6,"“Drama,Family,Fantasy”"
+tt0000231,short,Portuguese Railway Train,Portuguese Railway Train,0,1896,\N,1,"“Documentary,Short”"
+tt0000232,short,Le chiffonnier,Le chiffonnier,0,1899,\N,\N,"“Comedy,Short”"
+tt0000233,short,Choque de dos transatl谩nticos,Choque de dos transatl谩nticos,0,1899,\N,2,"“Animation,Shortt ”"
+tt0000234,short,Cleopatra's Tomb,Cl茅op芒tre,0,1899,\N,1,"“Horror,Shortl谩”"
+tt0000235,short,Haggard's She: The Pillar of Fire,La colonne de feu,0,1899,\N,1,"“Adventure,Fantasy,Horror”"
+tt0000236,short,Courte 茅chelle,Courte 茅chelle,0,1899,\N,\N,“Shortfe”
+tt0000237,short,Le crucifiement,Le crucifiement,0,1899,\N,\N,“Short”
+tt0000238,short,Les dangers de l'alcoolisme,Les dangers de l'alcoolisme,0,1899,\N,\N,"“Drama,Short”"
+tt0000239,short,Danse serpentine par Mme. Bob Walter,Danse serpentine par Mme. Bob Walter,0,1899,\N,2,"“Music,Short”"
+tt0000240,short,Distributing a War Extra,Distributing a War Extra,0,1899,\N,1,"“Documentary,Short”"
+tt0000241,short,La descente de croix,La descente de croix,0,1899,\N,\N,“Short”
+tt0000242,short,The Sign of the Cross,Le diable au couvent,0,1899,\N,3,"“Fantasy,Horror,Short”"
+tt0000243,short,Le d茅jeuner des enfants,Le d茅jeuner des enfants,0,1899,\N,\N,"“Comedy,Shortrt”"
+tt0000244,short,Erreur judiciaire,Erreur judiciaire,0,1899,\N,\N,“Short”
+tt0000245,short,The Haunted House,The Haunted House,0,1899,\N,\N,"“Comedy,Fantasy,Horror”"
+tt0000246,short,A Turn of the Century Illusionist,L'impressionniste fin de si猫cle,0,1899,\N,1,"“Fantasy,Short,”"
+tt0000247,short,King John,King John,0,1899,\N,5,"“Drama,Short”"
+tt0000248,short,A Kiss in the Tunnel,The Kiss in the Tunnel,0,1899,\N,1,"“Comedy,Romance,Short”"
+tt0000249,short,The Legacy,The Legacy,0,1899,\N,\N,“Short”
+tt0000250,short,Llegada del vapor Bellver a Mallorca,Llegada del vapor Bellver a Mallorca,0,1899,\N,3,"“Documentary,Short”"
+tt0000251,short,Matches: An Appeal,Matches: An Appeal,0,1899,\N,1,"“Animation,Short”"
+tt0000252,short,La mauvaise soupe,La mauvaise soupe,0,1899,\N,\N,"“Comedy,Short”"
+tt0000253,short,The Miser's Doom,The Miser's Doom,0,1899,\N,\N,"“Horror,Short”"
+tt0000254,short,Monnaie de lapin,Monnaie de lapin,0,1899,\N,\N,"“Comedy,Short”"
+tt0000255,short,M茅saventure d'un charbonnier,M茅saventure d'un charbonnier,0,1899,\N,\N,"“Comedy,Short”"
+tt0000256,short,Panorama from the Tower of the Brooklyn Bridge,Panorama from the Tower of the Brooklyn Bridge,0,1899,\N,\N,"“Documentary,Short”"
+tt0000257,short,La r茅surrection,La r茅surrection,0,1899,\N,\N,“Shortor”
+tt0000258,short,Le tondeur de chiens,Le tondeur de chiens,0,1899,\N,\N,"“Comedy,Short”"
+tt0000259,short,Le tonnelier,Le tonnelier,0,1899,\N,\N,"“Comedy,Short”"
+tt0000260,short,Transformations,Transformations,0,1899,\N,\N,"“Comedy,Short”"
+tt0000261,short,A Midnight Episode,Un bon lit,0,1899,\N,1,"“Comedy,Horror,Short”"
+tt0000262,short,Un lunch,Un lunch,0,1899,\N,\N,"“Comedy,Short”"
+tt0000263,short,"Vista de la entrada principal de la plaza de toros de Jerez, el segundo d铆a de feria","Vista de la entrada principal de la plaza de toros de Jerez, el segundo d铆a de feria",0,1899,\N,\N,"“Documentary,Short”"
+tt0000264,short,Summoning the Spirits,脡vocation spirite,0,1899,\N,1,"“Fantasy,Horror,Shortd”"
+tt0000265,short,Above the Limit,Above the Limit,0,1900,\N,\N,"“Comedy,Short”"
+tt0000266,short,Above the Speedway,Above the Speedway,0,1900,\N,\N,"“Documentary,Short”"
+tt0000267,short,L'ang茅lus,L'ang茅lus,0,1900,\N,\N,“Short0”
+tt0000268,short,L'arl茅quine,L'arl茅quine,0,1900,\N,\N,“Short00”
+tt0000269,short,"Army Life; or, How Soldiers Are Made: Mounted Infantry",Army Life,0,1900,\N,\N,"“Documentary,Short”"
+tt0000270,short,Arriv茅e d'Arl茅quin,Arriv茅e d'Arl茅quin,0,1900,\N,\N,“Shortrmy ”
+tt0000271,short,Arriv茅e de Pierette et Pierrot,Arriv茅e de Pierette et Pierrot,0,1900,\N,\N,“Shortcu”
+tt0000272,short,As Seen Through a Telescope,As Seen Through a Telescope,0,1900,\N,1,"“Comedy,Short”"
+tt0000273,short,Attack on a China Mission,Attack on a China Mission,0,1900,\N,4,"“Action,Crime,Drama”"
+tt0000274,short,Avenue de l'op茅ra,Avenue de l'op茅ra,0,1900,\N,1,"“Comedy,ShortN”"
+tt0000275,short,Badinage,Badinage,0,1900,\N,\N,“Short”
+tt0000276,short,Bataille d'oreillers,Bataille d'oreillers,0,1900,\N,\N,“Short”
+tt0000277,short,Bataille de boules de neige,Bataille de boules de neige,0,1900,\N,\N,“Short”
+tt0000278,short,Buffalo Bill's Show Parade,Buffalo Bill's Show Parade,0,1900,\N,\N,“Short”
+tt0000279,short,Buffalo Bill's Wild West Parade,Buffalo Bill's Wild West Parade,0,1900,\N,\N,"“News,Short”"
+tt0000280,short,Buffalo Bill's Wild West Parade,Buffalo Bill's Wild West Parade,0,1900,\N,\N,"“News,Short”"
+tt0000281,short,Buffalo Bill's Wild West Show,Buffalo Bill's Wild West Show,0,1900,\N,\N,"“News,Short”"
+tt0000282,short,Le b茅b茅,Le b茅b茅,0,1900,\N,\N,“Shortalo ”
+tt0000283,short,Chez le Mar茅chal-Ferrant,Chez le Mar茅chal-Ferrant,0,1900,\N,\N,“ShortN”
+tt0000284,short,Chez le photographe,Chez le photographe,0,1900,\N,1,“Short”
+tt0000285,short,Chinese Magic,Chinese Magic,0,1900,\N,\N,"“Horror,Short”"
+tt0000286,short,Chirurgie fin de si猫cle,Chirurgie fin de si猫cle,0,1900,\N,2,"“Comedy,Short”"
+tt0000287,short,The Clown and the Alchemist,The Clown and the Alchemist,0,1900,\N,1,"“Comedy,Fantasy,Short”"
+tt0000288,short,La concierge,La concierge,0,1900,\N,1,"“Comedy,Short”"
+tt0000289,short,Coucher d'une Parisienne,Coucher d'une Parisienne,0,1900,\N,\N,“Short”
+tt0000290,short,Dance de l'ivresse,Dance de l'ivresse,0,1900,\N,\N,“Short”
+tt0000291,short,Dans les coulisses,Dans les coulisses,0,1900,\N,\N,“Short”
+tt0000292,short,Danse du papillon,Danse du papillon,0,1900,\N,\N,"“Documentary,Short”"
+tt0000293,short,Danse du pas des foulards par des alm茅es,Danse du pas des foulards par des alm茅es,0,1900,\N,\N,“Shortra”
+tt0000294,short,La danse du ventre,La danse du ventre,0,1900,\N,\N,“Short”
+tt0000295,short,Danse du voile,Danse du voile,0,1900,\N,\N,“Short”
+tt0000296,short,Danse serpentine,Danse serpentine,0,1900,\N,2,"“Documentary,Short”"
+tt0000297,short,Danses,Danses,0,1900,\N,\N,“Short”
+tt0000298,short,D茅claration d'amour,D茅claration d'amour,0,1900,\N,\N,“ShortSh”
+tt0000299,short,Le d茅part d'Arlequin et de Pierrette,Le d茅part d'Arlequin et de Pierrette,0,1900,\N,2,“Short”
+tt0000300,short,The Enchanted Drawing,The Enchanted Drawing,0,1900,\N,2,"“Animation,Comedy,Fantasy”"
+tt0000301,short,Faust and Marguerite,Faust and Marguerite,0,1900,\N,1,"“Fantasy,Horror,Short”"
+tt0000302,short,"La f茅e aux choux, ou la naissance des enfants","La f茅e aux choux, ou la naissance des enfants",0,1900,\N,1,“Shortci”
+tt0000303,short,Gavotte directoire,Gavotte directoire,0,1900,\N,\N,“Short”
+tt0000304,short,Grandma's Reading Glass,Grandma's Reading Glass,0,1900,\N,2,"“Family,Short”"
+tt0000305,short,L'Habanera,L'Habanera,0,1900,\N,\N,“Short”
+tt0000306,short,Le duel d'Hamlet,Le duel d'Hamlet,0,1900,\N,2,"“Drama,Short”"
+tt0000307,short,Happy Hooligan,Happy Hooligan,0,1900,\N,\N,"“Comedy,Short”"
+tt0000308,short,The House That Jack Built,The House That Jack Built,0,1900,\N,1,“Short”
+tt0000309,short,How It Feels to Be Run Over,How It Feels to Be Run Over,0,1900,\N,1,"“Comedy,Short”"
+tt0000310,short,Chimmie Hicks and the Rum Omelet,Chimmie Hicks and the Rum Omelet,0,1900,\N,\N,"“Comedy,Short”"
+tt0000312,short,Le lapin,Le lapin,0,1900,\N,\N,“Short”
+tt0000313,short,Let Me Dream Again,Let Me Dream Again,0,1900,\N,1,"“Comedy,Short”"
+tt0000314,short,Le莽on de danse,Le莽on de danse,0,1900,\N,\N,“Short1”
+tt0000315,short,Le marchand de coco,Le marchand de coco,0,1900,\N,\N,“Short”
+tt0000316,short,March茅 脿 la volaille,March茅 脿 la volaille,0,1900,\N,\N,“Shortrtle”
+tt0000317,short,Le matelot,Le matelot,0,1900,\N,\N,“Short”
+tt0000318,short,Eine moderne Jungfrau von Orleans,Eine moderne Jungfrau von Orleans,0,1900,\N,\N,“Short”
+tt0000319,short,Maple Leaf Viewing,Momijigari,0,1899,\N,6,"“Horror,Short”"
+tt0000320,short,Mort d'Adonis,Mort d'Adonis,0,1900,\N,\N,“Short”
+tt0000321,short,The Mystic Swing,The Mystic Swing,0,1900,\N,1,"“Fantasy,Short”"
+tt0000322,short,Panorama de Barcelona: monumentos y fiestas,Panorama de Barcelona: monumentos y fiestas,0,1900,\N,6,"“Documentary,Short”"
+tt0000323,short,Pas Japonais,Pas Japonais,0,1900,\N,\N,“Short”
+tt0000324,short,Pas de gr芒ce,Pas de gr芒ce,0,1900,\N,\N,“ShortPa”
+tt0000325,short,Pas des 茅ventails,Pas des 茅ventails,0,1900,\N,\N,“Shorte ”
+tt0000326,short,Pas du poignard,Pas du poignard,0,1900,\N,\N,“Short”
+tt0000327,short,La paysanne,La paysanne,0,1900,\N,\N,“Short”
+tt0000328,short,La petite magicienne,La petite magicienne,0,1900,\N,1,“Short”
+tt0000329,short,Le Polichinelle,Le Polichinelle,0,1900,\N,\N,“Short”
+tt0000330,short,La poup茅e noire,La poup茅e noire,0,1900,\N,\N,“ShortN”
+tt0000331,short,La reine des jouets,La reine des jouets,0,1900,\N,\N,“Short”
+tt0000332,short,Retour des champs,Retour des champs,0,1900,\N,2,"“Documentary,Short”"
+tt0000333,short,Le sang d'Adonis donnant naissance 脿 la rose rouge,Le sang d'Adonis donnant naissance 脿 la rose rouge,0,1900,\N,\N,“Short p”
+tt0000334,short,Saut humidifi茅 de M. Plick,Saut humidifi茅 de M. Plick,0,1900,\N,\N,"“Comedy,Shortss”"
+tt0000335,short,Soldiers of the Cross,Soldiers of the Cross,0,1900,\N,40,"“Biography,Drama,Short”"
+tt0000336,short,La source,La source,0,1900,\N,\N,“Short”
+tt0000337,short,Spanish Bullfight,Spanish Bullfight,0,1900,\N,1,"“Short,Sport”"
+tt0000338,short,Suite de la danse,Suite de la danse,0,1900,\N,\N,“Short”
+tt0000339,short,La tarentelle,La tarentelle,0,1900,\N,\N,“Short”
+tt0000340,short,Uncle Josh in a Spooky Hotel,Uncle Josh in a Spooky Hotel,0,1900,\N,1,"“Comedy,Fantasy,Short”"
+tt0000341,short,Uncle Josh's Nightmare,Uncle Josh's Nightmare,0,1900,\N,2,"“Comedy,Fantasy,Short”"
+tt0000342,short,Une rage de dents,Une rage de dents,0,1900,\N,\N,"“Comedy,Short”"
+tt0000343,short,Valse directoire,Valse directoire,0,1900,\N,\N,“Short”
+tt0000344,short,Valse lente,Valse lente,0,1900,\N,\N,“Short”
+tt0000345,short,L'茅cossaise,L'茅cossaise,0,1900,\N,\N,“ShortN”
+tt0000346,short,Another Job for the Undertaker,Another Job for the Undertaker,0,1901,\N,2,"“Comedy,Short”"
+tt0000347,short,Buffalo Bill's Wild West Parade,Buffalo Bill's Wild West Parade,0,1901,\N,2,"“Documentary,News,Short”"
+tt0000348,short,Charmant froufrou,Charmant froufrou,0,1901,\N,\N,“Short”
+tt0000349,short,"What Came Out of the Cheese; or, The Lilliputians in a New York Restaurant","The Cheese Mites, or Lilliputians in a London Restaurant",0,1901,\N,1,"“Comedy,Short”"
+tt0000350,short,The Countryman's First Sight of the Animated Pictures,The Countryman and the Cinematograph,0,1901,\N,1,"“Comedy,Short”"
+tt0000351,short,Danses basques,Danses basques,0,1901,\N,\N,“Short”
+tt0000352,short,Day at the Circus,Day at the Circus,0,1901,\N,2,"“Documentary,Short”"
+tt0000353,short,Execution of Czolgosz with Panorama of Auburn Prison,Execution of Czolgosz with Panorama of Auburn Prison,0,1901,\N,4,"“Drama,History,Short”"
+tt0000354,short,Exerc铆cio de Artilharia no Hip贸dromo de Bel茅m,Exerc铆cio de Artilharia no Hip贸dromo de Bel茅m,0,1901,\N,\N,"“Documentary,Shorta,Hist”"
+tt0000355,short,Fire!,Fire!,0,1901,\N,5,"“Action,Drama,Short”"
+tt0000356,short,Frivolit茅,Frivolit茅,0,1901,\N,\N,“Shortho”
+tt0000357,short,The Haunted Curiosity Shop,The Haunted Curiosity Shop,0,1901,\N,2,"“Comedy,Fantasy,Horror”"
+tt0000358,short,History of a Crime,Histoire d'un crime,0,1901,\N,5,"“Crime,Drama,Short”"
+tt0000359,short,The India Rubber Head,L'homme 脿 la t锚te en caoutchouc,0,1901,\N,3,"“Comedy,Fantasy,Shortre”"
+tt0000360,short,Hussards et grisettes,Hussards et grisettes,0,1901,\N,\N,“Short”
+tt0000361,short,Lavatory moderne,Lavatory moderne,0,1901,\N,\N,“Short”
+tt0000362,short,Lecture quotidienne,Lecture quotidienne,0,1901,\N,\N,“Short”
+tt0000363,short,Magical Sword,The Magic Sword,0,1901,\N,2,"“Fantasy,Romance,Short”"
+tt0000364,short,Panorama of Esplanade by Night,Panorama of Esplanade by Night,0,1901,\N,1,"“Documentary,Short”"
+tt0000365,short,Parada de Bombeiros,Parada de Bombeiros,0,1901,\N,\N,"“Documentary,Short”"
+tt0000366,short,Uma Parada dos Alunos da Casa Pia de Lisboa,Uma Parada dos Alunos da Casa Pia de Lisboa,0,1901,\N,\N,"“Documentary,Short”"
+tt0000367,short,Pas de colombine,Pas de colombine,0,1901,\N,\N,“Short”
+tt0000368,short,Little Red Riding Hood,Le petit chaperon rouge,0,1901,\N,\N,"“Fantasy,Short”"
+tt0000369,short,A Road for Children's Bicycles in Barcelona,Pista de bicicletas para ni帽os en Barcelona,0,1901,\N,3,"“Documentary,Shortt”"
+tt0000370,short,Scrooge; or Marley's Ghost,Scrooge; or Marley's Ghost,0,1901,\N,6,"“Drama,Fantasy,Horror”"
+tt0000371,short,Sc猫ne d'amour,Sc猫ne d'amour,0,1901,\N,\N,“Shorts ”
+tt0000372,short,Sc猫ne d'ivresse,Sc猫ne d'ivresse,0,1901,\N,\N,“Shortos”
+tt0000373,short,The Devil's Seven Castles,Les sept ch芒teaux du diable,0,1902,\N,11,"“Drama,Horror,Shortr”"
+tt0000374,short,Tel est pris qui croyait prendre,Tel est pris qui croyait prendre,0,1901,\N,\N,“Short”
+tt0000375,short,Uma Tourada 脿 Antiga Portuguesa,Uma Tourada 脿 Antiga Portuguesa,0,1901,\N,\N,"“Documentary,Short”"
+tt0000376,short,A t谩ncz,A t谩ncz,0,1901,\N,\N,"“Documentary,ShortAn”"
+tt0000377,short,Undressing Extraordinary,Undressing Extraordinary,0,1901,\N,3,"“Comedy,Fantasy,Short”"
+tt0000378,short,Les vagues,Les vagues,0,1901,\N,\N,“Short”
+tt0000379,short,Visita de la escuadra inglesa a Barcelona,Visita de la escuadra inglesa a Barcelona,0,1901,\N,6,"“Documentary,Short”"
+tt0000380,short,Sleeping Beauty,La belle au bois dormant,0,1903,\N,\N,"“Drama,Fantasy,Short”"
+tt0000381,short,Buffalo Bill's Wild West Show,Buffalo Bill's Wild West Show,0,1902,\N,\N,"“News,Short”"
+tt0000382,short,Carnaval en las ramblas,Carnaval en las ramblas,0,1902,\N,9,"“Documentary,Short”"
+tt0000383,short,Carreras de caballos en el hip贸dromo de Barcelona,Carreras de caballos en el hip贸dromo de Barcelona,0,1902,\N,6,"“Documentary,Shortry”"
+tt0000384,short,Miss Dundee and Her Performing Dogs,Les chiens savants,0,1902,\N,3,"“Documentary,Short”"
+tt0000385,short,Les clowns,Les clowns,0,1902,\N,\N,"“Comedy,Short”"
+tt0000386,short,La cour des miracles,La cour des miracles,0,1902,\N,\N,"“Comedy,Short”"
+tt0000387,short,The Coronation of King Edward VII,The Coronation of Edward VII,0,1902,\N,4,"“History,Short”"
+tt0000388,short,Danse excentrique,Danse excentrique,0,1902,\N,2,"“Music,Short”"
+tt0000389,short,Danse fantaisiste,Danse fantaisiste,0,1902,\N,\N,“Short”
+tt0000390,short,Danse mauresque,Danse mauresque,0,1902,\N,\N,“Short”
+tt0000391,short,La dent r茅calcitrante,La dent r茅calcitrante,0,1902,\N,\N,"“Comedy,Short”"
+tt0000392,short,The Enchanted Cup,The Enchanted Cup,0,1903,\N,\N,"“Fantasy,Short”"
+tt0000393,short,En faction,En faction,0,1902,\N,\N,"“Comedy,Short”"
+tt0000394,short,Farces de cuisini猫re,Farces de cuisini猫re,0,1902,\N,\N,"“Comedy,Shortrt”"
+tt0000395,short,La fiole enchant茅e,La fiole enchant茅e,0,1902,\N,\N,“Shortom”
+tt0000396,short,Fruits de saison,Fruits de saison,0,1902,\N,\N,“Short”
+tt0000397,short,La gavotte,La gavotte,0,1902,\N,\N,“Short”
+tt0000398,short,La gigue,La gigue,0,1902,\N,\N,“Short”
+tt0000399,short,Jack and the Beanstalk,Jack and the Beanstalk,0,1902,\N,10,"“Fantasy,Short”"
+tt0000400,short,Le lion savant,Le lion savant,0,1902,\N,\N,"“Comedy,Short”"
+tt0000401,short,Le marchand de ballons,Le marchand de ballons,0,1902,\N,\N,"“Comedy,Short”"
+tt0000402,short,Mother Goose Nursery Rhymes,Mother Goose Nursery Rhymes,0,1902,\N,\N,"“Comedy,Short”"
+tt0000403,short,Le pommier,Le pommier,0,1902,\N,\N,“Short”
+tt0000404,short,Pour secouer la salade,Pour secouer la salade,0,1902,\N,\N,“Short”
+tt0000405,short,La premi猫re gamelle,La premi猫re gamelle,0,1902,\N,\N,"“Comedy,Short”"
+tt0000406,short,The Prince of Darkness,The Prince of Darkness,0,1900,\N,\N,"“Horror,Short”"
+tt0000407,short,Procesi贸n de las hijas de Mar铆a de la parroquia de Sans,Procesi贸n de las hijas de Mar铆a de la parroquia de Sans,0,1902,\N,2,"“Documentary,Short”"
+tt0000408,short,Quadrille r茅aliste,Quadrille r茅aliste,0,1902,\N,\N,“ShortPr”
+tt0000409,short,Midwife to the Upper Classes,Sage-femme de premi猫re classe,0,1902,\N,4,"“Comedy,Shorta”"
+tt0000410,short,Demolishing and Building Up the Star Theatre,Demolishing and Building Up the Star Theatre,0,1901,\N,2,"“Documentary,Short”"
+tt0000411,short,Tromp茅 mais content,Tromp茅 mais content,0,1902,\N,\N,"“Comedy,Shortdi”"
+tt0000412,short,The Troublesome Fly,The Troublesome Fly,0,1900,\N,\N,"“Comedy,Horror,Short”"
+tt0000413,short,The Devil's Money Bags,Les tr茅sors de satan,0,1902,\N,3,"“Comedy,Fantasy,HorrorS”"
+tt0000414,short,Uncle Josh at the Moving Picture Show,Uncle Josh at the Moving Picture Show,0,1902,\N,2,"“Comedy,Short”"
+tt0000415,short,A Peculiar Cabinet,Une sc猫ne en cabinet particulier vue 脿 travers le trou de la serrure,0,1902,\N,\N,“Shortme”
+tt0000416,short,Alcohol and Its Victims,Les victimes de l'alcoolisme,0,1902,\N,4,"“Drama,Short”"
+tt0000417,short,A Trip to the Moon,Le voyage dans la lune,0,1902,\N,13,"“Action,Adventure,Comedy”"
+tt0000418,short,The Wild Man of Borneo,The Wild Man of Borneo,0,1902,\N,\N,"“Drama,Short”"
+tt0000419,short,L'茅quilibriste,L'茅quilibriste,0,1902,\N,\N,“Short19”
+tt0000420,short,Alice in Wonderland,Alice in Wonderland,0,1903,\N,9,"“Family,Fantasy,Short”"
+tt0000421,short,Les apaches pas veinards,Les apaches pas veinards,0,1903,\N,\N,“Short”
+tt0000422,short,Les aventures d'un voyageur trop press茅,Les aventures d'un voyageur trop press茅,0,1903,\N,\N,“Short\N”
+tt0000423,short,The Enchanted Box,La bo卯te 脿 malice,0,1903,\N,1,"“Fantasy,Shortya”"
+tt0000424,short,Les braconniers,Les braconniers,0,1903,\N,\N,“Short”
+tt0000425,short,Buffalo Bill's Parade,Buffalo Bill's Parade,0,1903,\N,\N,"“Documentary,Short”"
+tt0000426,short,Buffalo Bill's Street Parade,Buffalo Bill's Street Parade,0,1903,\N,\N,"“Documentary,Short”"
+tt0000427,short,Cake-walk de la pendule,Cake-walk de la pendule,0,1903,\N,\N,“Short”
+tt0000428,short,Carreras de bicicletas en el parque,Carreras de bicicletas en el parque,0,1903,\N,\N,"“Documentary,Short”"
+tt0000429,short,La chasse au cambrioleur,La chasse au cambrioleur,0,1903,\N,\N,“Short”
+tt0000430,short,A Chess Dispute,A Chess Dispute,0,1903,\N,1,"“Comedy,Short”"
+tt0000431,short,Comme on fait son lit on se couche,Comme on fait son lit on se couche,0,1903,\N,\N,“Short”
+tt0000432,short,How Monsieur Takes His Bath,Comment monsieur prend son bain,0,1903,\N,1,"“Comedy,Short”"
+tt0000433,short,Compagnons de voyage encombrants,Compagnons de voyage encombrants,0,1903,\N,\N,“Short”
+tt0000434,short,Dorothy's Dream,Dorothy's Dream,0,1903,\N,\N,"“Fantasy,Short”"
+tt0000435,short,Enl猫vement en automobile et mariage pr茅cipit茅,Enl猫vement en automobile et mariage pr茅cipit茅,0,1903,\N,\N,"“Shortary,Sh”"
+tt0000436,short,An Extraordinary Cab Accident,An Extraordinary Cab Accident,0,1903,\N,1,"“Comedy,Short”"
+tt0000437,short,Faust et M茅phistoph茅l猫s,Faust et M茅phistoph茅l猫s,0,1903,\N,2,"“Drama,Horror,Short,Short”"
+tt0000438,short,Le fianc茅 ensorcel茅,Le fianc茅 ensorcel茅,0,1903,\N,\N,“Short2”
+tt0000439,short,The Great Train Robbery,The Great Train Robbery,0,1903,\N,11,"“Action,Adventure,Crime”"
+tt0000440,short,La guirlande merveilleuse,La guirlande merveilleuse,0,1903,\N,4,"“Fantasy,Short”"
+tt0000441,short,Gulliver en el pa铆s de los gigantes,Gulliver en el pa铆s de los gigantes,0,1903,\N,\N,“Short茅”
+tt0000442,short,Capital Execution,Henrettelsen,0,1903,\N,1,"“Drama,Short”"
+tt0000443,short,Hiawatha,"Hiawatha, the Messiah of the Ojibway",0,1903,\N,15,"“Adventure,Drama,Short”"
+tt0000444,short,Illusionniste renversant,Illusionniste renversant,0,1903,\N,\N,“Short”
+tt0000445,short,Jocko musicien,Jocko musicien,0,1903,\N,\N,“Short”
+tt0000446,short,Kit Carson,Kit Carson,0,1903,\N,21,"“Short,Western”"
+tt0000447,short,Life of an American Fireman,Life of an American Fireman,0,1903,\N,6,"“Action,Short”"
+tt0000448,short,Le liqueur du couvent,Le liqueur du couvent,0,1903,\N,\N,“Short”
+tt0000449,short,Lutteurs am茅ricains,Lutteurs am茅ricains,0,1903,\N,\N,“Shortho”
+tt0000450,short,La main du professeur Hamilton ou le roi des dollars,La main du professeur Hamilton ou le roi des dollars,0,1903,\N,\N,“Short”
+tt0000451,short,Mary Jane's Mishap,Mary Jane's Mishap,0,1903,\N,4,"“Comedy,Short”"
+tt0000452,short,The Messenger Boy's Mistake,The Messenger Boy's Mistake,0,1903,\N,2,"“Comedy,Romance,Short”"
+tt0000453,short,Modelage express,Modelage express,0,1903,\N,\N,“Short”
+tt0000454,short,La mouche,La mouche,0,1903,\N,\N,“Short”
+tt0000455,short,The Music Lover,Le m茅lomane,0,1903,\N,3,"“Comedy,Music,Short1”"
+tt0000456,short,N.Y. Fire Department Returning,N.Y. Fire Department Returning,0,1903,\N,\N,"“Documentary,Short”"
+tt0000457,short,Ne bougeons plus,Ne bougeons plus,0,1903,\N,\N,“Short”
+tt0000458,short,Nos bons 茅tudiants,Nos bons 茅tudiants,0,1903,\N,\N,“Shortrn”
+tt0000459,short,"Panorama of Riker's Island, N.Y.","Panorama of Riker's Island, N.Y.",0,1903,\N,2,"“Documentary,Short”"
+tt0000460,short,The Pioneers,The Pioneers,0,1903,\N,15,"“Short,Western”"
+tt0000461,short,Potage indigeste,Potage indigeste,0,1903,\N,\N,“Short”
+tt0000462,short,La poule fantaisiste,La poule fantaisiste,0,1903,\N,\N,“Short”
+tt0000463,short,Puerto de Barcelona,Puerto de Barcelona,0,1903,\N,1,"“Documentary,Short”"
+tt0000464,short,Rip Van Winkle,Rip Van Winkle,0,1896,\N,4,"“Comedy,Short”"
+tt0000465,short,The Kingdom of the Fairies,Le royaume des f茅es,0,1903,\N,16,"“Adventure,Fantasy,Shorte”"
+tt0000466,short,R茅p茅tition dans un cirque,R茅p茅tition dans un cirque,0,1903,\N,\N,“ShortFant”
+tt0000467,short,Secours aux naufrag茅s,Secours aux naufrag茅s,0,1903,\N,\N,“Short\N”
+tt0000468,short,Service pr茅cipit茅,Service pr茅cipit茅,0,1903,\N,\N,“Short\N”
+tt0000469,short,The Sick Kitten,The Sick Kitten,0,1903,\N,1,"“Comedy,Family,Short”"
+tt0000470,short,Les surprises de l'affichage,Les surprises de l'affichage,0,1903,\N,\N,“Short”
+tt0000471,short,Uncle Tom's Cabin,Uncle Tom's Cabin,0,1903,\N,13,"“Drama,Short”"
+tt0000472,short,Uncle Tom's Cabin,Uncle Tom's Cabin,0,1903,\N,\N,"“Drama,Short”"
+tt0000473,short,La valise enchant茅e,La valise enchant茅e,0,1905,\N,\N,“Shortrt”
+tt0000474,short,Le voleur sacril猫ge,Le voleur sacril猫ge,0,1903,\N,\N,“Shortrt”
+tt0000475,short,Voyage of the 'Arctic',The Adventurous Voyage of 'The Arctic',0,1903,\N,10,"“Drama,Short”"
+tt0000476,short,Apr猫s la f锚te,Apr猫s la f锚te,0,1904,\N,\N,“Shortof '”
+tt0000477,short,L'assassinat du courrier de Lyon,L'assassinat du courrier de Lyon,0,1904,\N,\N,"“Drama,Short”"
+tt0000478,short,Behind the Scenes,Behind the Scenes,0,1904,\N,\N,"“Comedy,Short”"
+tt0000479,short,Rum vs. Cherries,Buy Your Own Cherries,0,1904,\N,4,"“Drama,Short”"
+tt0000480,short,Le coffre enchant茅,Le coffre enchant茅,0,1904,\N,3,"“Fantasy,Shorton”"
+tt0000481,short,A Collier's Life,A Collier's Life,0,1904,\N,\N,“Short”
+tt0000482,short,Comment on disperse les foules,Comment on disperse les foules,0,1904,\N,\N,"“Comedy,Short”"
+tt0000483,short,Les deux rivaux,Les deux rivaux,0,1904,\N,\N,"“Comedy,Short”"
+tt0000484,short,Les enfants du miracle,Les enfants du miracle,0,1904,\N,\N,“Short”
+tt0000485,short,La gavotte de la reine,La gavotte de la reine,0,1904,\N,\N,“Short”
+tt0000486,short,A Gentleman of France,A Gentleman of France,0,1905,\N,5,"“Drama,Short”"
+tt0000487,short,The Great Train Robbery,The Great Train Robbery,0,1904,\N,8,"“Drama,Short,Western”"
+tt0000488,short,The Land Beyond the Sunset,The Land Beyond the Sunset,0,1912,\N,14,"“Drama,Fantasy,Short”"
+tt0000489,short,La le莽on de pipeau,La le莽on de pipeau,0,1904,\N,\N,“Short19”
+tt0000490,short,L'oiseau envol茅,L'oiseau envol茅,0,1904,\N,\N,“Short”
+tt0000491,short,Opening the Williamsburg Bridge,Opening the Williamsburg Bridge,0,1904,\N,1,"“News,Short”"
+tt0000492,short,Personal,Personal,0,1904,\N,6,"“Comedy,Short”"
+tt0000493,short,"Pierrot, Murderer",Pierrot assassin,0,1904,\N,\N,“Short”
+tt0000494,short,Le pompon malencontreux,Le pompon malencontreux,0,1904,\N,\N,“Short”
+tt0000495,short,The Pearl Fisher,Le p锚cheur de perles,0,1907,\N,12,"“Fantasy,Shortr”"
+tt0000496,short,Railroad Smashup,Railroad Smashup,0,1904,\N,1,"“Action,Short”"
+tt0000497,short,A Railway Tragedy,A Railway Tragedy,0,1904,\N,5,"“Crime,Short”"
+tt0000498,short,Rescued by Rover,Rescued by Rover,0,1905,\N,7,"“Crime,Drama,Family”"
+tt0000499,short,An Impossible Voyage,Le voyage 脿 travers l'impossible,0,1904,\N,24,"“Action,Adventure,FamilyS”"
+tt0000500,short,The Abductors,The Abductors,0,1905,\N,\N,“Short”
+tt0000501,short,Adventures of Sherlock Holmes,Adventures of Sherlock Holmes,0,1905,\N,\N,"“Crime,Drama,Mystery”"
+tt0000502,movie,Bohemios,Bohemios,0,1905,\N,100,“\N”
