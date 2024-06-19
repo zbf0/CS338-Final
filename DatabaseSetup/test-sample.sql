@@ -22,15 +22,16 @@ SELECT titleid,title,ordering,region,types FROM titleAkas WHERE title = "doNotEx
 
 INSERT INTO users (email, password) VALUES ("testsample@gmail.com", "testsample");
 
-SELECT email FROM users WHERE email = "testsample@gmail.com";
-SELECT password FROM users WHERE email = "testsample@gmail.com";
+-- 1 means email & password matches, 0 means wrong email / password
+SELECT COUNT(*) FROM users WHERE email = "testsample@gmail.com" AND password = "testsample";
+SELECT COUNT(*) FROM users WHERE email = "error@gmail.com" AND password = "error";
 
 SELECT * from users;
 
 DELETE FROM users WHERE email = "testsample@gmail.com";
 
 
--- User history --------------------------------------------------------------------------------------
+-- Test user history --------------------------------------------------------------------------------------
 
 INSERT INTO viewingHistory (userId, titleId) VALUES (1, "tt0000001");
 
