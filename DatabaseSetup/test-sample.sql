@@ -13,15 +13,17 @@ ALTER USER 'sujaya'@'localhost' IDENTIFIED WITH mysql_native_password BY 'Passwo
 
 -- Test title search --------------------------------------------------------------------------------------
 
+-- basic search feature by title name and return basic information
 SELECT titleid,title,ordering,region,types FROM titleAkas WHERE title = "Carmencita";
-
 SELECT titleid,title,ordering,region,types FROM titleAkas WHERE title = "doNotExist";
 
 
 -- Test user register & login --------------------------------------------------------------------------------------
 
+-- add user (user register)
 INSERT INTO users (email, password) VALUES ("testsample@gmail.com", "testsample");
 
+-- check if email & password match when user trys to login
 -- 1 means email & password matches, 0 means wrong email / password
 SELECT COUNT(*) FROM users WHERE email = "testsample@gmail.com" AND password = "testsample";
 SELECT COUNT(*) FROM users WHERE email = "error@gmail.com" AND password = "error";
@@ -33,6 +35,7 @@ DELETE FROM users WHERE email = "testsample@gmail.com";
 
 -- Test user history --------------------------------------------------------------------------------------
 
+-- get user view history (this feature is not complete for web yet)
 INSERT INTO viewingHistory (userId, titleId) VALUES (1, "tt0000001");
 
 SELECT titleId FROM viewingHistory WHERE userId = 1;
