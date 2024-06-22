@@ -10,11 +10,11 @@ Website Setup Guide
 
 3. Copy all files in directory SampleDatabase to the above address. If you are not using MySQL 8.0 or did not download MySQL by default, replace the path in read-sample.sql by your path.
 
-4. In MySQL command client, run config.sql and read_sample.sql by following command to set up sample database:
+4. In MySQL command client, run read-sample.sql by following command to set up sample database:
 
-    source [path to createdb.sql];
+    source [path to read-sample.sql];
 
-5. If you set the mysql password, type it in config.php
+5. If you set the mysql password, type it in read-sample.sql
 
 6. In any browser, search localhost/index.php to open the web. (If you are using xampp, you need to copy all files in directory WebsiteSetup to xampp/htdocs)
 
@@ -24,7 +24,7 @@ Features:
 
 
 1. Basic search feature (search by exact title and print details).
-2. User login/register.
+2. User login/register/logout.
 3. Top navigate bar.
 
 ==============================================================================================================================
