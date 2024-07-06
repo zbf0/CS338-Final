@@ -20,6 +20,19 @@ ENCLOSED BY '"'
 LINES TERMINATED BY '\n'
 IGNORE 1 ROWS;
 
+-- read from title.ratings.csv
+CREATE TABLE titleRatings (
+    titleId varchar(256),
+    averageRating FLOAT,
+    numVotes INT
+);
+LOAD DATA INFILE 'C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/sample.title.ratings.csv'
+INTO TABLE titleRatings
+FIELDS TERMINATED BY ','
+ENCLOSED BY '"'
+LINES TERMINATED BY '\n'
+IGNORE 1 ROWS;
+
 -- create table for users
 
 CREATE TABLE users (
@@ -37,48 +50,39 @@ CREATE TABLE users (
 CREATE TABLE viewingHistory (
     id INT NOT NULL PRIMARY KEY AUTO_INCREMENT,
     userId INT NOT NULL,
-    titleId varchar(256),
-    watched_at DATETIME DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP
+    titleId varchar(256) NOT NULL,
+    ordering INT NOT NULL,
+    date VARCHAR(21) NOT NULL
 );
 
 -- create table for contactForm
 
 CREATE TABLE contactForm (
     cid INT NOT NULL PRIMARY KEY AUTO_INCREMENT,
-    date INT NOT NULL,
+    date VARCHAR(10) NOT NULL,
     isComplete INT NOT NULL,
-    userId INT,
-    SId INT,
-    content VARCHAR(1000)
-);
-
--- create table for userAuthentication
-
-CREATE TABLE userAuthentication (
-    userid INT NOT NULL UNIQUE
-    username VARCHAR(50)
-    email VARCHAR(50)
-);
-
--- create table for staff
-
-CREATE TABLE staff (
-    SId INT NOT NULL PRIMARY KEY AUTO_INCREMENT,
-    email VARCHAR(50) NOT NULL UNIQUE,
-    SFname VARCHAR(50),
-    SLname VARCHAR(50)
+    name VARCHAR(50),
+    email VARCHAR(50),
+    content VARCHAR(1000),
+    SId INT
 );
 
 -- create table for User comment/rating
 
 CREATE TABLE comment (
     commentId INT NOT NULL PRIMARY KEY AUTO_INCREMENT,
-    rating INT,
-    comment VARCHAR(1000),
-    commentAt DATETIME DEFAULT CURRENT_TIMESTAMP,
-    email VARCHAR(50) NOT NULL UNIQUE,
-    userid INT NOT NULL,
-    tconst VARCHAR(256)
+    comment VARCHAR(1000) NOT NULL,
+    rating INT NOT NULL,
+    userId INT NOT NULL,
+    titleId VARCHAR(256) NOT NULL,
+    ordering INT NOT NULL,
+    date VARCHAR(21) NOT NULL
 );
 
--- add more later
+-- create table for top movies
+
+CREATE TABLE hot (
+    hotId INT NOT NULL PRIMARY KEY AUTO_INCREMENT,
+    titleId VARCHAR(256) NOT NULL,
+    rating INT NOT NULL
+);
