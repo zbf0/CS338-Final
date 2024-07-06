@@ -11,7 +11,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
         $email_err = "Please enter available email address.";
     } else{
         $sql = "SELECT id FROM users WHERE email = ?";
-        if($stmt = mysqli_prepare($link, $sql)){
+        if($stmt = mysqli_prepare($conn, $sql)){
             mysqli_stmt_bind_param($stmt, "s", $param_email);
             $param_email = trim($_POST["email"]);
             if(mysqli_stmt_execute($stmt)){
@@ -47,7 +47,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
     
     if(empty($email_err) && empty($password_err) && empty($confirm_password_err)){
         $sql = "INSERT INTO users (email, password) VALUES (?, ?)";
-        if($stmt = mysqli_prepare($link, $sql)){
+        if($stmt = mysqli_prepare($conn, $sql)){
             mysqli_stmt_bind_param($stmt, "ss", $param_email, $param_password);
             $param_email = $email;
             $param_password = password_hash($password, PASSWORD_DEFAULT);
@@ -59,7 +59,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
             mysqli_stmt_close($stmt);
         }
     }
-    mysqli_close($link);
+    mysqli_close($conn);
 }
 ?>
  
@@ -76,7 +76,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
   <li><a href="about.php">About</a></li>
   <li><a href="contact.php">Contact</a></li>
   <li><a href="user.php">User</a></li>
-  <div style="float:right" class="searchBar">
+  <div style="float:right" class="searchB">
     <li><a href="search.php">Search</a></li>
   </div>
 </ul>

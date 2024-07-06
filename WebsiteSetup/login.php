@@ -2,7 +2,7 @@
 // Initialize the session
 session_start();
  
-// Check if the user is already logged in, if yes then redirect him to welcome page
+// Check if the user is already logged in, if yes then redirect him to user page
 if(isset($_SESSION["loggedin"]) && $_SESSION["loggedin"] === true){
     header("location: user.php");
     exit;
@@ -37,7 +37,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
         // Prepare a select statement
         $sql = "SELECT id, email, password FROM users WHERE email = ?";
         
-        if($stmt = mysqli_prepare($link, $sql)){
+        if($stmt = mysqli_prepare($conn, $sql)){
             // Bind variables to the prepared statement as parameters
             mysqli_stmt_bind_param($stmt, "s", $param_email);
             
@@ -61,17 +61,17 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
                             // Store data in session variables
                             $_SESSION["loggedin"] = true;
                             $_SESSION["id"] = $id;
-                            $_SESSION["email"] = $email;                            
+                            $_SESSION["email"] = $email;
                             
                             // Redirect user to welcome page
                             header("location: user.php");
                         } else{
-                            // Password is not valid, display a generic error message
+                            // Password is not valid, display a generic error content
                             $login_err = "Invalid email or password.";
                         }
                     }
                 } else{
-                    // email doesn't exist, display a generic error message
+                    // email doesn't exist, display a generic error content
                     $login_err = "Invalid email or password.";
                 }
             } else{
@@ -84,7 +84,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
     }
     
     // Close connection
-    mysqli_close($link);
+    mysqli_close($conn);
 }
 ?>
  
@@ -97,7 +97,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
   <li><a href="about.php">About</a></li>
   <li><a href="contact.php">Contact</a></li>
   <li><a href="user.php">User</a></li>
-  <div style="float:right" class="searchBar">
+  <div style="float:right" class="searchB">
     <li><a href="search.php">Search</a></li>
   </div>
 </ul>

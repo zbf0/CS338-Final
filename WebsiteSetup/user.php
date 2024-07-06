@@ -18,15 +18,34 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
   <li><a href="about.php">About</a></li>
   <li><a href="contact.php">Contact</a></li>
   <li><a class="active" href="user.php">User</a></li>
-  <div style="float:right" class="searchBar">
+  <div style="float:right" class="searchB">
     <li><a href="search.php">Search</a></li>
   </div>
 </ul>
-
-    <h1 class="my-5"><b><?php echo htmlspecialchars($_SESSION["email"]); ?></b> user page</h1>
-    <p>
-        <a href="reset-password.php" class="btn btn-warning">Reset Your Password</a><br>
-        <a href="logout.php" class="btn btn-danger ml-3">Sign Out</a>
-    </p>
 </body>
 </html>
+
+<?php
+
+require_once "config.php";
+
+echo "<h3>Welcome! ";
+
+$id = $_SESSION["id"];
+
+$sql = "SELECT fname,lname FROM users WHERE id = '$id'";
+$r = mysqli_query($conn, $sql);
+if (mysqli_num_rows($r) > 0) {
+	$row = mysqli_fetch_assoc($r);
+	$fname = $row["fname"];
+	$lname = $row["lname"];
+	echo $fname . " " . $lname . "</h3>";
+}
+
+echo "<a href='updateInfo.php' class='btn btn-danger ml-3'>Update Your Information</a><br>";
+echo "<a href='resetPassword.php' class='btn btn-warning'>Reset Your Password</a><br>";
+echo "<a href='history.php' class='btn btn-warning'>History</a><br>";
+echo "<a href='logout.php' class='btn btn-danger ml-3'>Sign Out</a><br>";
+
+
+?>

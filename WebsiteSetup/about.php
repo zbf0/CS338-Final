@@ -8,7 +8,7 @@
   <li><a class="active" href="about.php">About</a></li>
   <li><a href="contact.php">Contact</a></li>
   <li><a href="user.php">User</a></li>
-  <div style="float:right" class="searchBar">
+  <div style="float:right" class="searchB">
     <li><a href="search.php">Search</a></li>
   </div>
 </ul>

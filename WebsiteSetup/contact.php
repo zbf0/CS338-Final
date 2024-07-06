@@ -15,29 +15,28 @@ textarea {
 }
 </style>
 <body>
-
 <ul>
   <li><a href="index.php">Home</a></li>
   <li><a href="about.php">About</a></li>
   <li><a class="active" href="contact.php">Contact</a></li>
   <li><a href="user.php">User</a></li>
-  <div style="float:right" class="searchBar">
+  <div style="float:right" class="searchB">
     <li><a href="search.php">Search</a></li>
   </div>
 </ul>
 
-<form action="contact_recieved.php" method="post">
+<form action="contactRecieved.php" method="POST">
     <br>
     <label for="name">Name:</label>
     <input type="text" id="name" name="name" required>
     <label for="    email">Email:</label>
     <input type="email" id="email" name="email" required>
     <br><br>
-    <label for="message">Message:</label>
+    <label for="content">content:</label>
     <br>
-    <textarea id="message" placeholder="Type your message here" name="message" required></textarea>
+    <textarea id="content" placeholder="Type your content here" name="content" required></textarea>
     <br><br>
-    <button type="submit">Submit</button>
+    <input type="submit">
 </form>
 
 </body>
