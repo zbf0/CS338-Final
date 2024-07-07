@@ -30,6 +30,7 @@ Features:
 5. User comment (NEW)
 6. User rating (NEW)
 7. Movie detailed information (NEW)
+8. Top 5 movie in main page (NEW)
 
 ==============================================================================================================================
 
