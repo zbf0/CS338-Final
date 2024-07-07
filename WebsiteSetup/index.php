@@ -13,7 +13,36 @@
   </div>
 </ul>
 
-<h3>CS338 Project</h3>
+<h3>HOT MOVIE</h3>
+
+<table align = "left" border = "1" cellpadding = "3" cellspacing = "2">  
+<tr>  
+<td> Name </td>
+<td> Rating </td>
+</tr>
 
 </body>
 </html>
+
+<?php
+require_once "config.php";
+
+$s1 = "SELECT titleid,averageRating FROM titleRatings ORDER BY averageRating DESC LIMIT 5";
+$r1 = mysqli_query($conn, $s1);
+if (mysqli_num_rows($r1) > 0) {
+  while($row = mysqli_fetch_assoc($r1)) {
+    $movieid = $row["titleid"];
+    $movie = "";
+    $s2 = "SELECT title FROM titleAkas WHERE titleid = '$movieid'";
+    $r2 = mysqli_query($conn, $s2);
+    $row2 = mysqli_fetch_assoc($r2);
+    if (mysqli_num_rows($r2) > 0) {
+      $movie = $row2["title"];
+    }
+    echo "<tr>";
+    echo "<td>" . $movie . "</a></td>";
+    echo "<td>" . $row["averageRating"] . "</td>";
+    echo "</tr>";
+  }
+}
+?>

@@ -71,6 +71,7 @@ if(isset($_SESSION["loggedin"]) && $_SESSION["loggedin"] === true){
 
 <form method="post">
 <textarea id="text" placeholder="Type your comment here" name="comment" required></textarea>
+<input type="text" placeholder="rating"  name="rating" required>
 <input type="submit" name="submit">
 
 </form><br>
@@ -84,13 +85,29 @@ if (isset($_POST["submit"])) {
       if($stmt = mysqli_prepare($conn, $sql)){
         mysqli_stmt_bind_param($stmt, "ssssss", $param_comment, $param_rating, $param_userId, $param_titleId, $param_ordering, $param_date);
         $param_comment = $comment;
-        $param_rating = 0;
+        $param_rating = $_POST["rating"];
         $param_userId = $_SESSION["id"];
         $param_titleId = $movieid;
         $param_ordering = $order;
         $param_date = date("Y-m-d h:i:sa");
         mysqli_stmt_execute($stmt);
         mysqli_stmt_close($stmt);
+      }
+      $s1 = "SELECT averageRating, numVotes FROM titleRatings WHERE titleId = '$movieid'";
+      $r1 = mysqli_query($conn, $s1);
+      if (mysqli_num_rows($r1) > 0) {
+        $row = mysqli_fetch_assoc($r1);
+        $newRating = ($row["averageRating"] * $row["numVotes"] + $_POST["rating"]) / ($row["numVotes"] + 1);
+        $newNum = $row["numVotes"] + 1;
+        $s2 = "UPDATE titleRatings SET averageRating = ?, numVotes = ? WHERE titleId = ?;";
+        if($stmt = mysqli_prepare($conn, $s2)){
+          mysqli_stmt_bind_param($stmt, "sss", $param_rating, $param_num, $param_titleId);
+          $param_rating = $newRating;
+          $param_num = $newNum;
+          $param_titleId = $movieid;
+          mysqli_stmt_execute($stmt);
+          mysqli_stmt_close($stmt);
+        }
       }
     } else {
       header("location: login.php");
