@@ -78,11 +78,3 @@ CREATE TABLE comment (
     ordering INT NOT NULL,
     date VARCHAR(21) NOT NULL
 );
-
--- create table for top movies
-
-CREATE TABLE hot (
-    hotId INT NOT NULL PRIMARY KEY AUTO_INCREMENT,
-    titleId VARCHAR(256) NOT NULL,
-    rating INT NOT NULL
-);
