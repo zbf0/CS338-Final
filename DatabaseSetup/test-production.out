@@ -1,0 +1,336 @@
+Database changed
+Query OK, 1 row affected (0.01 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
++----------+
+| COUNT(*) |
++----------+
+|        1 |
++----------+
+1 row in set (0.00 sec)
+
+Query OK, 0 rows affected, 1 warning (0.05 sec)
+Records: 0  Duplicates: 0  Warnings: 1
+
++----------+
+| COUNT(*) |
++----------+
+|        1 |
++----------+
+1 row in set (0.00 sec)
+
+Query OK, 0 rows affected (0.02 sec)
+Records: 0  Duplicates: 0  Warnings: 0
+
++----------+
+| COUNT(*) |
++----------+
+|        0 |
++----------+
+1 row in set (0.00 sec)
+
++----------+
+| COUNT(*) |
++----------+
+|        0 |
++----------+
+1 row in set (0.00 sec)
+
+Query OK, 0 rows affected (0.04 sec)
+Records: 0  Duplicates: 0  Warnings: 0
+
++----------+
+| COUNT(*) |
++----------+
+|        0 |
++----------+
+1 row in set (0.00 sec)
+
++----------+
+| COUNT(*) |
++----------+
+|        0 |
++----------+
+1 row in set (0.00 sec)
+
+Query OK, 0 rows affected (0.02 sec)
+Records: 0  Duplicates: 0  Warnings: 0
+
++-----------+------------+----------+--------+----------+-------------+---------------+-----------------+
+| titleid   | title      | ordering | region | language | types       | attributes    | isOriginalTitle |
++-----------+------------+----------+--------+----------+-------------+---------------+-----------------+
+| tt0000001 | Carmencita |        1 | NULL   | NULL     | original    | NULL          |               1 |
+| tt0000001 | Carmencita |        2 | DE     | NULL     | NULL        | literal title |               0 |
+| tt0000001 | Carmencita |        3 | US     | NULL     | imdbDisplay | NULL          |               0 |
+| tt0021748 | Carmencita |        5 | IT     | NULL     | imdbDisplay | NULL          |               0 |
+| tt0028162 | Carmencita |        3 | IT     | NULL     | imdbDisplay | NULL          |               0 |
++-----------+------------+----------+--------+----------+-------------+---------------+-----------------+
+5 rows in set (3.29 sec)
+
+Empty set (2.96 sec)
+
+Query OK, 0 rows affected (7.56 sec)
+Records: 0  Duplicates: 0  Warnings: 0
+
++-----------+------------+----------+--------+----------+-------------+---------------+-----------------+
+| titleid   | title      | ordering | region | language | types       | attributes    | isOriginalTitle |
++-----------+------------+----------+--------+----------+-------------+---------------+-----------------+
+| tt0000001 | Carmencita |        1 | NULL   | NULL     | original    | NULL          |               1 |
+| tt0000001 | Carmencita |        2 | DE     | NULL     | NULL        | literal title |               0 |
+| tt0000001 | Carmencita |        3 | US     | NULL     | imdbDisplay | NULL          |               0 |
+| tt0021748 | Carmencita |        5 | IT     | NULL     | imdbDisplay | NULL          |               0 |
+| tt0028162 | Carmencita |        3 | IT     | NULL     | imdbDisplay | NULL          |               0 |
++-----------+------------+----------+--------+----------+-------------+---------------+-----------------+
+5 rows in set (0.00 sec)
+
+Empty set (0.00 sec)
+
+Query OK, 0 rows affected (0.02 sec)
+Records: 0  Duplicates: 0  Warnings: 0
+
++----------------------------+----------+--------+-------------+---------------+----------+
+| title                      | ordering | region | types       | averageRating | numVotes |
++----------------------------+----------+--------+-------------+---------------+----------+
+| Carmencita                 |        1 | NULL   | original    |           5.7 |     2059 |
+| Carmencita                 |        2 | DE     | NULL        |           5.7 |     2059 |
+| Carmencita                 |        3 | US     | imdbDisplay |           5.7 |     2059 |
+| Carmencita - spanyol t谩nc |        4 | HU     | imdbDisplay |           5.7 |     2059 |
+| 螝伪蟻渭蔚谓蟽委蟿伪       |        5 | GR     | imdbDisplay |           5.7 |     2059 |
+| 袣邪褉屑械薪褋懈褌邪       |        6 | RU     | imdbDisplay |           5.7 |     2059 |
+| 袣邪褉屑械薪褋褨褌邪       |        7 | UA     | imdbDisplay |           5.7 |     2059 |
+| 銈?儷銉°兂銉併兗銈¿      |        8 | JP     | imdbDisplay |           5.7 |     2059 |
+| Le clown et ses chiens     |        1 | NULL   | original    |           5.6 |      277 |
+| A boh贸c 茅s kuty谩i       |        2 | HU     | imdbDisplay |           5.6 |      277 |
++----------------------------+----------+--------+-------------+---------------+----------+
+10 rows in set (0.02 sec)
+
+Query OK, 0 rows affected (7.18 sec)
+Records: 0  Duplicates: 0  Warnings: 0
+
++----------------------------+----------+--------+-------------+---------------+----------+
+| title                      | ordering | region | types       | averageRating | numVotes |
++----------------------------+----------+--------+-------------+---------------+----------+
+| Carmencita                 |        1 | NULL   | original    |           5.7 |     2059 |
+| Carmencita                 |        2 | DE     | NULL        |           5.7 |     2059 |
+| Carmencita                 |        3 | US     | imdbDisplay |           5.7 |     2059 |
+| Carmencita - spanyol t谩nc |        4 | HU     | imdbDisplay |           5.7 |     2059 |
+| 螝伪蟻渭蔚谓蟽委蟿伪       |        5 | GR     | imdbDisplay |           5.7 |     2059 |
+| 袣邪褉屑械薪褋懈褌邪       |        6 | RU     | imdbDisplay |           5.7 |     2059 |
+| 袣邪褉屑械薪褋褨褌邪       |        7 | UA     | imdbDisplay |           5.7 |     2059 |
+| 銈?儷銉°兂銉併兗銈¿      |        8 | JP     | imdbDisplay |           5.7 |     2059 |
+| Le clown et ses chiens     |        1 | NULL   | original    |           5.6 |      277 |
+| A boh贸c 茅s kuty谩i       |        2 | HU     | imdbDisplay |           5.6 |      277 |
++----------------------------+----------+--------+-------------+---------------+----------+
+10 rows in set (0.01 sec)
+
+Query OK, 0 rows affected (0.02 sec)
+Records: 0  Duplicates: 0  Warnings: 0
+
+Query OK, 1 row affected (0.01 sec)
+
+Query OK, 1 row affected (0.01 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
++-----------+----------+-----------------------+
+| titleId   | ordering | date                  |
++-----------+----------+-----------------------+
+| tt0000001 |        1 | 2024/01/01 00:00:00am |
+| tt0000002 |        1 | 2024/01/01 00:00:00am |
+| tt0000003 |        1 | 2024/01/01 00:00:00am |
+| tt0000004 |        1 | 2024/01/01 00:00:00am |
+| tt0000005 |        1 | 2024/01/01 00:00:00am |
+| tt0000001 |        1 | 2024/01/01 00:00:00am |
+| tt0000002 |        1 | 2024/01/01 00:00:00am |
+| tt0000003 |        1 | 2024/01/01 00:00:00am |
+| tt0000004 |        1 | 2024/01/01 00:00:00am |
+| tt0000005 |        1 | 2024/01/01 00:00:00am |
++-----------+----------+-----------------------+
+10 rows in set (0.00 sec)
+
+Query OK, 0 rows affected (0.05 sec)
+Records: 0  Duplicates: 0  Warnings: 0
+
++-----------+----------+-----------------------+
+| titleId   | ordering | date                  |
++-----------+----------+-----------------------+
+| tt0000001 |        1 | 2024/01/01 00:00:00am |
+| tt0000002 |        1 | 2024/01/01 00:00:00am |
+| tt0000003 |        1 | 2024/01/01 00:00:00am |
+| tt0000004 |        1 | 2024/01/01 00:00:00am |
+| tt0000005 |        1 | 2024/01/01 00:00:00am |
+| tt0000001 |        1 | 2024/01/01 00:00:00am |
+| tt0000002 |        1 | 2024/01/01 00:00:00am |
+| tt0000003 |        1 | 2024/01/01 00:00:00am |
+| tt0000004 |        1 | 2024/01/01 00:00:00am |
+| tt0000005 |        1 | 2024/01/01 00:00:00am |
++-----------+----------+-----------------------+
+10 rows in set (0.00 sec)
+
+Query OK, 0 rows affected (0.02 sec)
+Records: 0  Duplicates: 0  Warnings: 0
+
+Query OK, 10 rows affected (0.01 sec)
+
+Query OK, 1 row affected (0.01 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.01 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
++-----------+----------+--------+
+| titleId   | comment  | userId |
++-----------+----------+--------+
+| tt0000001 | comment1 |      1 |
+| tt0000001 | comment2 |      1 |
+| tt0000001 | comment3 |      1 |
+| tt0000001 | comment4 |      1 |
+| tt0000001 | comment5 |      1 |
+| tt0000001 | comment1 |      1 |
+| tt0000001 | comment2 |      1 |
+| tt0000001 | comment3 |      1 |
+| tt0000001 | comment4 |      1 |
+| tt0000001 | comment5 |      1 |
++-----------+----------+--------+
+10 rows in set (0.00 sec)
+
+Query OK, 0 rows affected (0.05 sec)
+Records: 0  Duplicates: 0  Warnings: 0
+
++-----------+----------+--------+
+| titleId   | comment  | userId |
++-----------+----------+--------+
+| tt0000001 | comment1 |      1 |
+| tt0000001 | comment2 |      1 |
+| tt0000001 | comment3 |      1 |
+| tt0000001 | comment4 |      1 |
+| tt0000001 | comment5 |      1 |
+| tt0000001 | comment1 |      1 |
+| tt0000001 | comment2 |      1 |
+| tt0000001 | comment3 |      1 |
+| tt0000001 | comment4 |      1 |
+| tt0000001 | comment5 |      1 |
++-----------+----------+--------+
+10 rows in set (0.00 sec)
+
+Query OK, 0 rows affected (0.02 sec)
+Records: 0  Duplicates: 0  Warnings: 0
+
+Query OK, 10 rows affected (0.01 sec)
+
++---------------+----------+
+| averageRating | numVotes |
++---------------+----------+
+|           5.7 |     2059 |
++---------------+----------+
+1 row in set (2.32 sec)
+
+Query OK, 1 row affected (2.14 sec)
+
+Query OK, 1 row affected (3.11 sec)
+Rows matched: 1  Changed: 1  Warnings: 0
+
++---------------+----------+
+| averageRating | numVotes |
++---------------+----------+
+|       5.69966 |     2060 |
++---------------+----------+
+1 row in set (2.18 sec)
+
+Query OK, 0 rows affected (5.71 sec)
+Records: 0  Duplicates: 0  Warnings: 0
+
++---------------+----------+
+| averageRating | numVotes |
++---------------+----------+
+|       5.69966 |     2060 |
++---------------+----------+
+1 row in set (0.00 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.00 sec)
+Rows matched: 1  Changed: 1  Warnings: 0
+
++---------------+----------+
+| averageRating | numVotes |
++---------------+----------+
+|       5.69932 |     2061 |
++---------------+----------+
+1 row in set (0.00 sec)
+
+Query OK, 0 rows affected (0.03 sec)
+Records: 0  Duplicates: 0  Warnings: 0
+
++-----------+---------------+
+| titleid   | averageRating |
++-----------+---------------+
+| tt0127236 |            10 |
+| tt0058559 |            10 |
+| tt0058271 |            10 |
+| tt0143979 |            10 |
+| tt0065800 |            10 |
++-----------+---------------+
+5 rows in set (2.07 sec)
+
+Query OK, 0 rows affected (6.45 sec)
+Records: 0  Duplicates: 0  Warnings: 0
+
++-----------+---------------+
+| titleid   | averageRating |
++-----------+---------------+
+| tt0127236 |            10 |
+| tt0058559 |            10 |
+| tt0058271 |            10 |
+| tt0143979 |            10 |
+| tt0065800 |            10 |
++-----------+---------------+
+5 rows in set (2.08 sec)
+
+Query OK, 0 rows affected (0.02 sec)
+Records: 0  Duplicates: 0  Warnings: 0

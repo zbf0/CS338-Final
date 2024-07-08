@@ -1,24 +1,15 @@
 Database changed
-Query OK, 0 rows affected (0.01 sec)
++----------+
+| COUNT(*) |
++----------+
+|        0 |
++----------+
+1 row in set (0.00 sec)
 
-Query OK, 0 rows affected (0.02 sec)
-
-Query OK, 0 rows affected (0.00 sec)
-
-Query OK, 0 rows affected (0.01 sec)
-
-+-----------+------------+----------+--------+-------------+
-| titleid   | title      | ordering | region | types       |
-+-----------+------------+----------+--------+-------------+
-| tt0000001 | Carmencita |        1 | NULL   | original    |
-| tt0000001 | Carmencita |        2 | DE     | NULL        |
-| tt0000001 | Carmencita |        3 | US     | imdbDisplay |
-+-----------+------------+----------+--------+-------------+
-3 rows in set (0.00 sec)
-
-Empty set (0.00 sec)
+Query OK, 1 row affected (0.01 sec)
 
 Query OK, 1 row affected (0.00 sec)
+Rows matched: 1  Changed: 1  Warnings: 0
 
 +----------+
 | COUNT(*) |
@@ -34,15 +25,41 @@ Query OK, 1 row affected (0.00 sec)
 +----------+
 1 row in set (0.00 sec)
 
-+----+----------------------+-------+-------+--------------------------------------------------------------+---------------------+---------------------+
-| id | email                | fname | lname | password                                                     | created_at          | updated_at          |
-+----+----------------------+-------+-------+--------------------------------------------------------------+---------------------+---------------------+
-|  1 | user@gmail.com       | NULL  | NULL  | $2y$10$1g/lBGBeja2Urh600ZbxUuYYkXI6SpirX4iWDYxT2xwws48Q4.GSi | 2024-06-14 13:15:18 | 2024-06-14 13:15:18 |
-| 15 | testsample@gmail.com | NULL  | NULL  | testsample                                                   | 2024-06-18 22:19:19 | 2024-06-18 22:19:19 |
-+----+----------------------+-------+-------+--------------------------------------------------------------+---------------------+---------------------+
-2 rows in set (0.00 sec)
++----+----------------+-------+-------+--------------+---------------------+---------------------+
+| id | email          | fname | lname | password     | created_at          | updated_at          |
++----+----------------+-------+-------+--------------+---------------------+---------------------+
+|  2 | test@gmail.com | T     | T     | testpassword | 2024-07-08 18:53:59 | 2024-07-08 18:53:59 |
++----+----------------+-------+-------+--------------+---------------------+---------------------+
+1 row in set (0.00 sec)
 
-Query OK, 1 row affected (0.00 sec)
+Query OK, 1 row affected (0.01 sec)
+
++-----------+------------+----------+--------+----------+-------------+---------------+-----------------+
+| titleid   | title      | ordering | region | language | types       | attributes    | isOriginalTitle |
++-----------+------------+----------+--------+----------+-------------+---------------+-----------------+
+| tt0000001 | Carmencita |        1 | NULL   | NULL     | original    | NULL          |               1 |
+| tt0000001 | Carmencita |        2 | DE     | NULL     | NULL        | literal title |               0 |
+| tt0000001 | Carmencita |        3 | US     | NULL     | imdbDisplay | NULL          |               0 |
++-----------+------------+----------+--------+----------+-------------+---------------+-----------------+
+3 rows in set (0.00 sec)
+
+Empty set (0.00 sec)
+
++----------------------------+----------+--------+-------------+---------------+----------+
+| title                      | ordering | region | types       | averageRating | numVotes |
++----------------------------+----------+--------+-------------+---------------+----------+
+| Carmencita                 |        1 | NULL   | original    |       5.69966 |     2060 |
+| Carmencita                 |        2 | DE     | NULL        |       5.69966 |     2060 |
+| Carmencita                 |        3 | US     | imdbDisplay |       5.69966 |     2060 |
+| Carmencita - spanyol t谩nc |        4 | HU     | imdbDisplay |       5.69966 |     2060 |
+| 螝伪蟻渭蔚谓蟽委蟿伪       |        5 | GR     | imdbDisplay |       5.69966 |     2060 |
+| 袣邪褉屑械薪褋懈褌邪       |        6 | RU     | imdbDisplay |       5.69966 |     2060 |
+| 袣邪褉屑械薪褋褨褌邪       |        7 | UA     | imdbDisplay |       5.69966 |     2060 |
+| 銈?儷銉°兂銉併兗銈¿      |        8 | JP     | imdbDisplay |       5.69966 |     2060 |
+| Le clown et ses chiens     |        1 | NULL   | original    |           5.6 |      277 |
+| A boh贸c 茅s kuty谩i       |        2 | HU     | imdbDisplay |           5.6 |      277 |
++----------------------------+----------+--------+-------------+---------------+----------+
+10 rows in set (0.00 sec)
 
 Query OK, 1 row affected (0.00 sec)
 
@@ -54,3 +71,45 @@ Query OK, 1 row affected (0.00 sec)
 1 row in set (0.00 sec)
 
 Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
++-----------+----------+--------+
+| titleId   | comment  | userId |
++-----------+----------+--------+
+| tt0000001 | comment1 |      1 |
+| tt0000001 | comment1 |      1 |
++-----------+----------+--------+
+2 rows in set (0.00 sec)
+
+Query OK, 0 rows affected (0.00 sec)
+
++---------------+----------+
+| averageRating | numVotes |
++---------------+----------+
+|       5.69966 |     2060 |
++---------------+----------+
+1 row in set (0.00 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.00 sec)
+Rows matched: 1  Changed: 1  Warnings: 0
+
++---------------+----------+
+| averageRating | numVotes |
++---------------+----------+
+|       5.69932 |     2061 |
++---------------+----------+
+1 row in set (0.00 sec)
+
++-----------+---------------+
+| titleid   | averageRating |
++-----------+---------------+
+| tt0000012 |           7.4 |
+| tt0000014 |           7.1 |
+| tt0000010 |           6.8 |
+| tt0000041 |           6.7 |
+| tt0000003 |           6.5 |
++-----------+---------------+
+5 rows in set (0.00 sec)
