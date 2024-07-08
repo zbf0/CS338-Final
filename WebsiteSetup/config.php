@@ -11,4 +11,21 @@ if($conn === false){
 }
 
 
+// SQL_READ
+// read data from sql and run func to each output
+// $sql: sql command
+function SQL_READ($sql, $func) {
+	$q = mysqli_query($conn, $sql);
+	if (mysqli_num_rows($q) > 0) {
+		while($row = mysqli_fetch_assoc($q)) {
+			$func($q);
+		}
+	}
+}
+
+
+
+
+
+
 ?>
