@@ -26,24 +26,40 @@ Website Setup Guide
 
 ==============================================================================================================================
 
+Testing Guide
+
+1. In MySQL command client, run text-sample.sql by following command to set up sample database:
+
+    source [path to test-sample.sql];
+
+2.  In MySQL command client, run test-production.sql by following command to set up sample database:
+
+    source [path to test-production.sql];
+
+[!] If you want to compare the time taken for queries with and without INDEX, you have to remove all command that create INDEX in read-production.sql.
+
+[!] In order to observe how well INDEX perform, I temporary remove all INDEX that we addded in read-production.sql. We can see that, for our large movie database, INDEX decrease the time for query from 2-3 seconds to close to 0 seconds.
+
+==============================================================================================================================
+
 Features:
 
 
 1. Basic search feature (search by exact title and print details).
 2. User login/register.
-3. Top navigate bar.
-4. User history (NEW)
-5. User comment (NEW)
-6. User rating (NEW)
-7. Movie detailed information (NEW)
-8. The 5 most popular movies in main page (NEW)
+3. User history (NEW)
+4. User comment (NEW)
+5. User rating (NEW)
+6. Movie detailed information (NEW)
+7. The 5 most popular movies in main page (NEW)
+8. Top navigate bar.
 
 ==============================================================================================================================
 
 File Description:
 
 
-1. Directory DatabaseSetup store sql files to setup the databases (C2,C3,C4)
+1. Directory DatabaseSetup store sql files to setup and test the databases (C2,C3,C4)
 2. Directory SampleDatbase store csv file containing sample data.
 3. Directory WebsiteSetup store php files to setup the web (C5)
 4. README.md (C1)
