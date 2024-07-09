@@ -7,7 +7,7 @@ SELECT COUNT(*) FROM users WHERE email = "test@gmail.com";
 -- register
 INSERT INTO users (email, password) VALUES ("test@gmail.com", "testpassword");
 
--- use update name
+-- user update name
 UPDATE users SET fname = "T", lname = "T" WHERE email = "test@gmail.com";
 -- check if account exist, 1 means email & password matches, 0 means wrong email / password
 SELECT COUNT(*) FROM users WHERE email = "test@gmail.com" AND password = "testpassword";
