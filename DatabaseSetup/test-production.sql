@@ -107,8 +107,6 @@ UPDATE titleRatings SET averageRating = (@ave*@num+5)/(@num+1), numVotes = @num+
 SELECT averageRating, numVotes FROM titleRatings WHERE titleId = "tt0000001";
 ALTER TABLE titleRatings DROP INDEX idx_titleId;
 
-
-
 -- Popular movie rating --------------------------------------------------------------------------------------
 
 SELECT titleid,averageRating FROM titleRatings ORDER BY averageRating DESC LIMIT 5;

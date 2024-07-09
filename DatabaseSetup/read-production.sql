@@ -20,6 +20,9 @@ ENCLOSED BY '"'
 LINES TERMINATED BY '\n'
 IGNORE 1 ROWS;
 
+CREATE INDEX idx_titleId ON titleAkas (titleId);
+CREATE INDEX idx_title ON titleAkas (title);
+
 -- read from title.ratings.csv
 CREATE TABLE titleRatings (
     titleId varchar(256),
@@ -33,6 +36,8 @@ ENCLOSED BY '"'
 LINES TERMINATED BY '\n'
 IGNORE 1 ROWS;
 
+CREATE INDEX idx_titleId ON titleRatings (titleId);
+
 -- create table for users
 
 CREATE TABLE users (
@@ -45,6 +50,9 @@ CREATE TABLE users (
     updated_at DATETIME DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP
 );
 
+CREATE UNIQUE INDEX idx_email ON users (email);
+CREATE UNIQUE INDEX idx_emailpassword ON users (email,password);
+
 -- create table for viewingHistory
 
 CREATE TABLE viewingHistory (
@@ -54,6 +62,8 @@ CREATE TABLE viewingHistory (
     ordering INT NOT NULL,
     date VARCHAR(21) NOT NULL
 );
+
+CREATE INDEX idx_userId ON viewingHistory (userId);
 
 -- create table for contactForm
 
@@ -78,3 +88,5 @@ CREATE TABLE comment (
     ordering INT NOT NULL,
     date VARCHAR(21) NOT NULL
 );
+
+CREATE INDEX idx_userId ON comment (userId);
