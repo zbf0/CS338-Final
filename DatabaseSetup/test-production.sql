@@ -111,6 +111,6 @@ ALTER TABLE titleRatings DROP INDEX idx_titleId;
 
 SELECT titleid,averageRating FROM titleRatings ORDER BY averageRating DESC LIMIT 5;
 -- check efficiency with index created
-CREATE UNIQUE INDEX idx_titleId ON titleRatings (titleId);
+CREATE INDEX idx_titleId ON titleRatings (titleId);
 SELECT titleid,averageRating FROM titleRatings ORDER BY averageRating DESC LIMIT 5;
 ALTER TABLE titleRatings DROP INDEX idx_titleId;
