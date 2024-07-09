@@ -16,7 +16,7 @@ Website Setup Guide
 
     source [path to read-sample.sql];
 
-6.  In MySQL command client, run read-production.sql by following command to set up sample database:
+6.  In MySQL command client, run read-production.sql by following command to set up production database:
 
     source [path to read-production.sql];
 
@@ -28,11 +28,11 @@ Website Setup Guide
 
 Testing Guide
 
-1. In MySQL command client, run text-sample.sql by following command to set up sample database:
+1. In MySQL command client, run text-sample.sql by following command:
 
     source [path to test-sample.sql];
 
-2.  In MySQL command client, run test-production.sql by following command to set up sample database:
+2.  In MySQL command client, run test-production.sql by following command:
 
     source [path to test-production.sql];
 
