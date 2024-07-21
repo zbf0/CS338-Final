@@ -24,10 +24,14 @@
 </body>
 </html>
 
+<!--main page, top 5 movies are shown here-->
+
 <?php
 require_once "config.php";
 
-$s1 = "SELECT titleid,averageRating FROM titleRatings ORDER BY averageRating DESC LIMIT 5";
+$r = mysqli_query($conn, "CALL update_hot();");
+
+$s1 = "SELECT titleid,averageRating FROM hot ORDER BY averageRating DESC LIMIT 5";
 $r1 = mysqli_query($conn, $s1);
 if (mysqli_num_rows($r1) > 0) {
   while($row = mysqli_fetch_assoc($r1)) {

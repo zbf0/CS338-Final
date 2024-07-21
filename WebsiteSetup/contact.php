@@ -25,6 +25,8 @@ textarea {
   </div>
 </ul>
 
+<!--contact form page, redirect to contactRecieved.php after submission-->
+
 <form action="contactRecieved.php" method="POST">
     <br>
     <label for="name">Name:</label>

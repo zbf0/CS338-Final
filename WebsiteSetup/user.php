@@ -25,6 +25,8 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
 </body>
 </html>
 
+<!--user info, user can reset password, update info, view history, and logout here-->
+
 <?php
 
 require_once "config.php";

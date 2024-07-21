@@ -13,6 +13,8 @@
   </div>
 </ul>
 
+<!--About page will contains basic info of our project-->
+
 <h1>About this project:<h1>
 <h4>This is the website of CS338 - Computer Applications in Business Databases - Term Long Course Project.
 The professor of this course who assigned this project was Khalid Ammar.

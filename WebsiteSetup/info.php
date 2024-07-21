@@ -27,19 +27,19 @@ textarea {
 </body>
 </html>
 
+<!--movie info, all comments and ratings are shown here-->
+
 <?php
 require_once "config.php";
 
 // movie info
 $movieid = $_GET['movieid'];
-$order = $_GET['order'];
 
-$s1 = "SELECT title,region,language,types,attributes,isOriginalTitle FROM titleAkas WHERE titleId = '$movieid' AND ordering = '$order'";
+$s1 = "SELECT title,region,language,types,attributes,isOriginalTitle FROM titleAkas WHERE titleId = '$movieid'";
 $r1 = mysqli_query($conn, $s1);
 if (mysqli_num_rows($r1) > 0) {
   $row = mysqli_fetch_assoc($r1);
   echo "<h3>" . $row["title"] . "</h3>";
-  echo "Order: " . $order . "<br>";
   echo "Region: " . $row["region"] . "<br>";
   echo "Language: " . $row["language"] . "<br>";
   echo "Type: " . $row["types"] . "<br>";
@@ -50,16 +50,15 @@ if (mysqli_num_rows($r1) > 0) {
 session_start();
 
 if(isset($_SESSION["loggedin"]) && $_SESSION["loggedin"] === true){
-  $s = "DELETE FROM viewingHistory WHERE titleId = '$movieid' AND ordering = '$order'";
+  $s = "DELETE FROM viewingHistory WHERE titleId = '$movieid'";
   if ($stmt = mysqli_prepare($conn, $s)){
     mysqli_stmt_execute($stmt);
   }
-  $sql = "INSERT INTO viewingHistory (userId, titleId, ordering, date) VALUES (?, ?, ?, ?);";
+  $sql = "INSERT INTO viewingHistory (userId, titleId, date) VALUES (?, ?, ?);";
   if($stmt = mysqli_prepare($conn, $sql)){
-    mysqli_stmt_bind_param($stmt, "ssss", $param_userId, $param_titleId, $param_order, $param_date);
+    mysqli_stmt_bind_param($stmt, "sss", $param_userId, $param_titleId, $param_date);
     $param_userId = $_SESSION["id"];
     $param_titleId = $movieid;
-    $param_order = $order;
     $param_date = date("Y-m-d h:i:sa");
     mysqli_stmt_execute($stmt);
     mysqli_stmt_close($stmt);
@@ -81,14 +80,13 @@ if (isset($_POST["submit"])) {
   $comment = $_POST["comment"];
   if ($comment != "") {
     if(isset($_SESSION["loggedin"]) && $_SESSION["loggedin"] === true){
-      $sql = "INSERT INTO comment (comment,rating,userId,titleId,ordering,date) VALUES (?, ?, ?, ?, ?, ?);";
+      $sql = "INSERT INTO comment (comment,rating,userId,titleId,date) VALUES (?, ?, ?, ?, ?);";
       if($stmt = mysqli_prepare($conn, $sql)){
-        mysqli_stmt_bind_param($stmt, "ssssss", $param_comment, $param_rating, $param_userId, $param_titleId, $param_ordering, $param_date);
+        mysqli_stmt_bind_param($stmt, "sssss", $param_comment, $param_rating, $param_userId, $param_titleId, $param_date);
         $param_comment = $comment;
         $param_rating = $_POST["rating"];
         $param_userId = $_SESSION["id"];
         $param_titleId = $movieid;
-        $param_ordering = $order;
         $param_date = date("Y-m-d h:i:sa");
         mysqli_stmt_execute($stmt);
         mysqli_stmt_close($stmt);
@@ -117,7 +115,7 @@ if (isset($_POST["submit"])) {
 }
 
 // print comments
-$s1 = "SELECT userId,comment,rating,date FROM comment WHERE titleId = '$movieid' && ordering = '$order' ORDER BY date DESC";
+$s1 = "SELECT userId,comment,rating,date FROM comment WHERE titleId = '$movieid' ORDER BY date DESC";
 $r1 = mysqli_query($conn, $s1);
 if (mysqli_num_rows($r1) > 0) {
 	while($row = mysqli_fetch_assoc($r1)) {

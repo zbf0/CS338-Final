@@ -15,6 +15,8 @@
 </body>
 </html>
 
+<!--Deal with the submitted contact form-->
+
 <?php
 require_once "config.php";
 

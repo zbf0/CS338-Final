@@ -34,6 +34,8 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
 <td> Time </td>
 </tr>
 
+<!--show user history-->
+
 <?php
 
 require_once "config.php";

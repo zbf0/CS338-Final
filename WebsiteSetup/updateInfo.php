@@ -21,6 +21,8 @@
 </body>
 </html>
 
+<!--Let user to update their name-->
+
 <?php
 
 session_start();
