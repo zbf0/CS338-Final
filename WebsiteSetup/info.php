@@ -35,22 +35,41 @@ require_once "config.php";
 // movie info
 $movieid = $_GET['movieid'];
 
-$s1 = "SELECT title,region,language,types,attributes,isOriginalTitle FROM titleAkas WHERE titleId = '$movieid'";
+$s1 = "SELECT primaryTitle, startYear, endYear, genres FROM titleBasics WHERE titleId = '$movieid' LIMIT 1";
+$s2 = "SELECT directorid FROM titleCrew WHERE titleId = '$movieid' LIMIT 1";
+$s3 = "SELECT averageRating FROM titleratings WHERE titleid = '$movieid' LIMIT 1";
+
 $r1 = mysqli_query($conn, $s1);
 if (mysqli_num_rows($r1) > 0) {
   $row = mysqli_fetch_assoc($r1);
-  echo "<h3>" . $row["title"] . "</h3>";
-  echo "Region: " . $row["region"] . "<br>";
-  echo "Language: " . $row["language"] . "<br>";
-  echo "Type: " . $row["types"] . "<br>";
-  echo "Attribute: " . $row["attributes"] . "<br><br>";
+  echo "<h3>" . $row["primaryTitle"] ."</h3>";
+  echo "Year: " . $row["startYear"] . " - " . $row["endYear"] . "<br>";
+  echo "Genres: " . $row["genres"] . "<br>";
+}
+
+$r2 = mysqli_query($conn, $s2);
+if (mysqli_num_rows($r2) > 0) {
+  $row = mysqli_fetch_assoc($r2);
+  $did = $row["directorid"];
+  $sa = "SELECT primaryName FROM nameBasics WHERE personid = '$did'";
+  $ra = mysqli_query($conn, $sa);
+  if (mysqli_num_rows($ra) > 0) {
+    $row = mysqli_fetch_assoc($ra);
+    echo "Director: " . $row["primaryName"] . "<br>";
+  }
+}
+
+$r3 = mysqli_query($conn, $s3);
+if (mysqli_num_rows($r3) > 0) {
+  $row = mysqli_fetch_assoc($r3);
+  echo "Rating: " . $row["averageRating"] . "<br><br>";
 }
 
 // update user history
 session_start();
 
 if(isset($_SESSION["loggedin"]) && $_SESSION["loggedin"] === true){
-  $s = "DELETE FROM viewingHistory WHERE titleId = '$movieid'";
+  $s = "DELETE FROM viewingHistory WHERE titleId = '$movieid'AND userid = ". $_SESSION["id"];
   if ($stmt = mysqli_prepare($conn, $s)){
     mysqli_stmt_execute($stmt);
   }

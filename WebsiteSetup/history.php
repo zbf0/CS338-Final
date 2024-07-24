@@ -30,7 +30,6 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
 <table align = "left" border = "1" cellpadding = "3" cellspacing = "2">  
 <tr>  
 <td> Name </td>
-<td> Order </td>
 <td> Time </td>
 </tr>
 
@@ -41,22 +40,20 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
 require_once "config.php";
 
 $userid = $_SESSION["id"];
-$s1 = "SELECT titleId,ordering,date FROM viewingHistory WHERE userId = '$userid' ORDER BY date DESC";
+$s1 = "SELECT titleId,date FROM viewingHistory WHERE userId = '$userid' ORDER BY date DESC";
 $r1 = mysqli_query($conn, $s1);
 if (mysqli_num_rows($r1) > 0) {
 	while($row1 = mysqli_fetch_assoc($r1)) {
-		$movieid = $row1["titleId"];
-		$order = $row1["ordering"];
-        $s2 = "SELECT title FROM titleAkas WHERE titleId = '$movieid' AND ordering = '$order'";
-        $r2 = mysqli_query($conn, $s2);
-        if (mysqli_num_rows($r1) > 0) {
-            $row2 = mysqli_fetch_assoc($r2);
-		    echo "<tr>";
-	    	echo "<td><a href='info.php?movieid=$movieid&order=$order'>" . $row2["title"] . "</a></td>";
-	        echo "<td>" . $order . "</td>";
-	      	echo "<td>" . $row1["date"] . "</td>";
-            echo "</tr>";
-        }
+    $movieid = $row1["titleId"];
+    $s2 = "SELECT title FROM titleAkas WHERE titleId = '$movieid'";
+    $r2 = mysqli_query($conn, $s2);
+    if (mysqli_num_rows($r1) > 0) {
+      $row2 = mysqli_fetch_assoc($r2);
+		  echo "<tr>";
+	    echo "<td><a href='info.php?movieid=$movieid'>" . $row2["title"] . "</a></td>";
+	    echo "<td>" . $row1["date"] . "</td>";
+      echo "</tr>";
+    }
 	}
 }
 

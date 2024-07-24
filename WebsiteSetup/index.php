@@ -1,17 +1,39 @@
 <!DOCTYPE html>
 <html>
 <link rel="stylesheet" href="mainPageStyle.css"/>
-<body>
+<style>
+body {
+  background-image: url('source/white.jpg');
+  background-position: center top;
+  background-size: 100% auto;
+  color: black;
+}
 
+.dark-mode {
+  background-image: url('source/black.jpg');
+  color: white;
+}
+</style>
+<body>
 <ul>
   <li><a class="active" href="index.php">Home</a></li>
   <li><a href="about.php">About</a></li>
   <li><a href="contact.php">Contact</a></li>
   <li><a href="user.php">User</a></li>
+  <div style="float:right">
+    <li><button onclick="dark_mode()">Toggle dark mode</button></li>
+  </div>
   <div style="float:right" class="searchB">
     <li><a href="search.php">Search</a></li>
   </div>
 </ul>
+
+<script>
+function dark_mode() {
+   var element = document.body;
+   element.classList.toggle("dark-mode");
+}
+</script>
 
 <h3>HOT MOVIE</h3>
 
@@ -29,7 +51,7 @@
 <?php
 require_once "config.php";
 
-$r = mysqli_query($conn, "CALL update_hot();");
+mysqli_query($conn, "CALL update_hot();");
 
 $s1 = "SELECT titleid,averageRating FROM hot ORDER BY averageRating DESC LIMIT 5";
 $r1 = mysqli_query($conn, $s1);

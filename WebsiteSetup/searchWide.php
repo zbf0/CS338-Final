@@ -14,6 +14,7 @@
 <form method="post">
 <label>Search</label>
 <input type="text" name="searchTitle" placeholder="name">
+<input type="text" name="searchGenres" placeholder="genres">
 <input type="submit" name="submit">
 </form><br>
 </body>
@@ -25,38 +26,45 @@ require_once "config.php";
 
 if (isset($_POST["submit"])) {
 	$name = $_POST["searchTitle"];
+	$genres = $_POST["searchGenres"];
+	if ($name != '' && $genres = '') {
+		
+	}
+	if ($name != '') {
+		$name = "WHERE title LIKE '%$name%'";
+	}
+	if ($genres != '') {
+		$genres = "WHERE genres LIKE '%$genres%'";
+	}
 
-	$s1 = "SELECT titleid,title FROM titleAkas WHERE title = '$name' GROUP BY titleid";
+	$s1 = "SELECT titleid,title FROM titleAkas $name GROUP BY titleid";
+	$s2 = "SELECT titleid,genres FROM titleBasics $genres";
+
+	$s = "SELECT a.titleid AS tid, a.title AS t, b.genres AS g FROM ($s1) AS a INNER JOIN ($s2) AS b ON a.titleid=b.titleid LIMIT 1000 ";
 
     //echo $s;
 
-	$r1 = mysqli_query($conn, $s1);
-	if (mysqli_num_rows($r1) > 0) {
+	$r = mysqli_query($conn, $s);
+	if (mysqli_num_rows($r) > 0) {
 		echo "<table align = 'left' border = '1' cellpadding = '3' cellspacing = '2'>";
 		echo "<tr>";
 		echo "<td> Name </td>";
 		echo "<td> Genres </td>";
 		echo "</tr>";
-		while($row = mysqli_fetch_assoc($r1)) {
-			$movieid = $row["titleid"];
-			$movie = $row["title"];
+		while($row = mysqli_fetch_assoc($r)) {
+			$movieid = $row["tid"];
+			$movie = $row["t"];
+			$genres = $row["g"];
 			if (strlen($movie) > 50){
 				$movie = substr($movie, 0, 50) . '...';
 			}
 			echo "<tr>";  
 			echo "<td><a href='info.php?movieid=$movieid'>" . $movie . "</a></td>";
-			$s2 = "SELECT genres FROM titleBasics WHERE titleid = '$movieid' LIMIT 1";
-			$r2 = mysqli_query($conn, $s2);
-			if (mysqli_num_rows($r2) > 0) {
-				if ($row2 = mysqli_fetch_assoc($r2)) {
-					$genres = $row2["genres"];
-					echo "<td>" . $genres . "</td>";
-				}
-			}
+			echo "<td>" . $genres . "</td>";
 			echo "</tr>";
 		}
 	} else {
-		echo "no movie found, try <a href='searchWide.php'>wide search</a><br>.";
+		echo "no movie found, please check your movie name and genres.";
 	}
 }
 
