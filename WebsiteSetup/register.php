@@ -1,5 +1,7 @@
 <?php
+ini_set('display_errors', 0);
 require_once "config.php";
+
  
 $email = $password = $confirm_password = "";
 $email_err = $password_err = $confirm_password_err = "";
@@ -70,12 +72,36 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
     <title>Sign Up</title>
     <link rel="stylesheet" href="mainPageStyle.css"/>
 </head>
+<style>
+body {
+  background-image: url('source/white.jpg');
+  background-position: center top;
+  background-size: 100% auto;
+  color: black;
+}
+
+.dark-mode {
+  background-image: url('source/black.jpg');
+  color: white;
+}
+
+.darkbuttom {background-color: #333;}
+</style>
+<script>
+function dark_mode() {
+   var element = document.body;
+   element.classList.toggle("dark-mode");
+}
+</script>
 <body>
 <ul>
   <li><a href="index.php">Home</a></li>
   <li><a href="about.php">About</a></li>
   <li><a href="contact.php">Contact</a></li>
   <li><a href="user.php">User</a></li>
+  <div style="float:right">
+    <li><button class = "darkbuttom" onclick="dark_mode()"><img src='source/dark.jpg' style=width:37px;height:37px;></button></li>
+  </div>
   <div style="float:right" class="searchB">
     <li><a href="search.php">Search</a></li>
   </div>

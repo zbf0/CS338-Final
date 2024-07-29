@@ -13,29 +13,31 @@ body {
   background-image: url('source/black.jpg');
   color: white;
 }
-</style>
-<body>
-<ul>
-  <li><a class="active" href="index.php">Home</a></li>
-  <li><a href="about.php">About</a></li>
-  <li><a href="contact.php">Contact</a></li>
-  <li><a href="user.php">User</a></li>
-  <div style="float:right">
-    <li><button onclick="dark_mode()">Toggle dark mode</button></li>
-  </div>
-  <div style="float:right" class="searchB">
-    <li><a href="search.php">Search</a></li>
-  </div>
-</ul>
 
+.darkbuttom {background-color: #333;}
+
+</style>
 <script>
 function dark_mode() {
    var element = document.body;
    element.classList.toggle("dark-mode");
 }
 </script>
+<body>
+<ul>
+  <li><a class="active" href="index.php">Home</a></li>
+  <li><a href="about.php?dark=TRUE">About</a></li>
+  <li><a href="contact.php">Contact</a></li>
+  <li><a href="user.php">User</a></li>
+  <div style="float:right">
+    <li><button class = "darkbuttom" onclick="dark_mode()"><img src='source/dark.jpg' style=width:37px;height:37px;></button></li>
+  </div>
+  <div style="float:right" class="searchB">
+    <li><a href="search.php">Search</a></li>
+  </div>
+</ul>
 
-<h3>HOT MOVIE</h3>
+<h2>HOT MOVIE</h2>
 
 <table align = "left" border = "1" cellpadding = "3" cellspacing = "2">  
 <tr>  
@@ -44,12 +46,17 @@ function dark_mode() {
 </tr>
 
 </body>
+
 </html>
 
 <!--main page, top 5 movies are shown here-->
 
 <?php
+
+ini_set('display_errors', 0);
 require_once "config.php";
+
+
 
 mysqli_query($conn, "CALL update_hot();");
 

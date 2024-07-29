@@ -18,10 +18,34 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
   <li><a href="about.php">About</a></li>
   <li><a href="contact.php">Contact</a></li>
   <li><a class="active" href="user.php">User</a></li>
+  <div style="float:right">
+    <li><button class = "darkbuttom" onclick="dark_mode()"><img src='source/dark.jpg' style=width:37px;height:37px;></button></li>
+  </div>
   <div style="float:right" class="searchB">
     <li><a href="search.php">Search</a></li>
   </div>
 </ul>
+<style>
+body {
+  background-image: url('source/white.jpg');
+  background-position: center top;
+  background-size: 100% auto;
+  color: black;
+}
+
+.dark-mode {
+  background-image: url('source/black.jpg');
+  color: white;
+}
+
+.darkbuttom {background-color: #333;}
+</style>
+<script>
+function dark_mode() {
+   var element = document.body;
+   element.classList.toggle("dark-mode");
+}
+</script>
 </body>
 </html>
 
@@ -36,7 +60,7 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
 <!--show user history-->
 
 <?php
-
+ini_set('display_errors', 0);
 require_once "config.php";
 
 $userid = $_SESSION["id"];
@@ -50,7 +74,7 @@ if (mysqli_num_rows($r1) > 0) {
     if (mysqli_num_rows($r1) > 0) {
       $row2 = mysqli_fetch_assoc($r2);
 		  echo "<tr>";
-	    echo "<td><a href='info.php?movieid=$movieid'>" . $row2["title"] . "</a></td>";
+	    echo "<td><a href='info.php?movieid=".$movieid."'>" . $row2["title"] . "</a></td>";
 	    echo "<td>" . $row1["date"] . "</td>";
       echo "</tr>";
     }

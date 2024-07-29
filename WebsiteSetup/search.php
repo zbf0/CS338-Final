@@ -7,6 +7,9 @@
   <li><a href="about.php">About</a></li>
   <li><a href="contact.php">Contact</a></li>
   <li><a href="user.php">User</a></li>
+  <div style="float:right">
+    <li><button class = "darkbuttom" onclick="dark_mode()"><img src='source/dark.jpg' style=width:37px;height:37px;></button></li>
+  </div>
   <div style="float:right" class="searchB">
     <li><a class="active" href="search.php">Search</a></li>
   </div>
@@ -16,12 +19,35 @@
 <input type="text" name="searchTitle" placeholder="name">
 <input type="submit" name="submit">
 </form><br>
+<style>
+body {
+  background-image: url('source/white.jpg');
+  background-position: center top;
+  background-size: 100% auto;
+  color: black;
+}
+
+.dark-mode {
+  background-image: url('source/black.jpg');
+  color: white;
+}
+
+.darkbuttom {background-color: #333;}
+</style>
+<script>
+function dark_mode() {
+   var element = document.body;
+   element.classList.toggle("dark-mode");
+}
+</script>
 </body>
 </html>
 
 <?php
-
+ini_set('display_errors', 0);
 require_once "config.php";
+
+
 
 if (isset($_POST["submit"])) {
 	$name = $_POST["searchTitle"];
@@ -44,7 +70,7 @@ if (isset($_POST["submit"])) {
 				$movie = substr($movie, 0, 50) . '...';
 			}
 			echo "<tr>";  
-			echo "<td><a href='info.php?movieid=$movieid'>" . $movie . "</a></td>";
+			echo "<td><a href='info.php?movieid=".$movieid."'>" . $movie . "</a></td>";
 			$s2 = "SELECT genres FROM titleBasics WHERE titleid = '$movieid' LIMIT 1";
 			$r2 = mysqli_query($conn, $s2);
 			if (mysqli_num_rows($r2) > 0) {

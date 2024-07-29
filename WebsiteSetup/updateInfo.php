@@ -7,6 +7,9 @@
   <li><a href="about.php">About</a></li>
   <li><a href="contact.php">Contact</a></li>
   <li><a class="active" href="user.php">User</a></li>
+  <div style="float:right">
+    <li><button class = "darkbuttom" onclick="dark_mode()"><img src='source/dark.jpg' style=width:37px;height:37px;></button></li>
+  </div>
   <div style="float:right" class="searchB">
     <li><a href="search.php">Search</a></li>
   </div>
@@ -18,12 +21,34 @@
 <input type="text" name="lname">
 <input type="submit" name="submit">
 </form><br>
+<style>
+body {
+  background-image: url('source/white.jpg');
+  background-position: center top;
+  background-size: 100% auto;
+  color: black;
+}
+
+.dark-mode {
+  background-image: url('source/black.jpg');
+  color: white;
+}
+
+.darkbuttom {background-color: #333;}
+</style>
+<script>
+function dark_mode() {
+   var element = document.body;
+   element.classList.toggle("dark-mode");
+}
+</script>
 </body>
 </html>
 
 <!--Let user to update their name-->
 
 <?php
+ini_set('display_errors', 0);
 
 session_start();
 if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
