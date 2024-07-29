@@ -1,0 +1,1 @@
+set global sql_mode='';
