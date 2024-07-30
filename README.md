@@ -7,23 +7,27 @@ Website Setup Guide:
 
 2. Download and setup all required applications (Apache, MySQL, XAMPP).
    
-4. In MySQL command client, run the following command below. It return the path to the principal directory to store the input files:
+3. In MySQL command client, run the following command below. It return the path to the principal directory to store the input files:
 
     SELECT @@secure_file_priv;
 
-5. Copy all sample data and real data files to the address produced by this command. If you are not using MySQL 8.0 or did not download MySQL by default, replace the path in read-sample.sql by your path.
+4. Copy all sample data and real data files to the address produced by this command. If you are not using MySQL 8.0 or did not download MySQL by default, replace the path in read-sample.sql by your path.
 
-6. In MySQL Command Line Client, run read-sample.sql from the DatabaseSetup folder by following command to set up sample database (leave out the semicolon in the end):
+5. In MySQL command client, run config.sql:
+
+    source [path to config.sql];
+
+7. In MySQL Command Line Client, run read-sample.sql from the DatabaseSetup folder by following command to set up sample database (leave out the semicolon in the end):
 
     source [path to read-sample.sql];
 
-7.  In MySQL command client, run read-production.sql from the DatabaseSetup by following command to set up production database (leave out the semicolon in the end):
+8.  In MySQL command client, run read-production.sql from the DatabaseSetup by following command to set up production database (leave out the semicolon in the end):
 
     source [path to read-production.sql];
 
-8. If you set up your own MySQL password, type it in config.php file from the WebsiteSetup folder.
+9. If you set up your own MySQL password, type it in config.php file from the WebsiteSetup folder.
 
-9. In any browser, search localhost/index.php to open the web. (If you are using XAMPP, you need to copy all files in directory WebsiteSetup to xampp/htdocs. If the files were copied to a subfolder in htdocs, then you need to include that subfolder in any address, such as localhost/Website_Setup_Folder/index.php).
+10. In any browser, search localhost/index.php to open the web. (If you are using XAMPP, you need to copy all files in directory WebsiteSetup to xampp/htdocs. If the files were copied to a subfolder in htdocs, then you need to include that subfolder in any address, such as localhost/Website_Setup_Folder/index.php).
 
 ==============================================================================================================================
 
