@@ -200,3 +200,25 @@ END &&
 DELIMITER ;
 
 CALL update_hot();
+
+-- create table for languages
+CREATE TABLE Languages (
+    LanguageID INT PRIMARY KEY AUTO_INCREMENT,
+    LanguageCode VARCHAR(10) NOT NULL,
+    LanguageName VARCHAR(50) NOT NULL
+);
+
+CREATE TABLE Translations (
+    TranslationID INT PRIMARY KEY AUTO_INCREMENT,
+    LanguageID INT,
+    OriginalText TEXT NOT NULL,
+    TranslatedText TEXT NOT NULL,
+    FOREIGN KEY (LanguageID) REFERENCES Languages(LanguageID)
+);
+
+INSERT INTO Languages (LanguageCode, LanguageName) VALUES 
+('en', 'English'),
+('fr', 'French');
+
+INSERT INTO Translations (LanguageID, OriginalText, TranslatedText) VALUES
+((SELECT LanguageID FROM Languages WHERE LanguageCode = 'fr'), 'HOT MOVIE', 'BON FILM');
