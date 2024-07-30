@@ -79,3 +79,8 @@ if (mysqli_num_rows($r1) > 0) {
   }
 }
 ?>
+
+<select id="languageSelector">
+    <option value="en">English</option>
+    <option value="fr">French</option>
+</select>
